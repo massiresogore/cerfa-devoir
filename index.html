@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>CERFA_EISINE</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="">
+        <div class="text">
+            <div class="">
+                <img alt="logo république française" src="./logo-republique-francaise-.png" width="70">
+            </div>
+            <div class="text-1">
+                MINISTERE DU TRAVAIL, DE L'EMPLOI
+            </div>
+        </div>
+        <span class="header-span">ET DE L'INSERTION</span>
+    </div>
+    <div class="milieu">
+        <div class="contrat">
+            <span> Contrat d’apprentissage</span>
+            <div class="contrat-text">
+                (art. L6211-1 et suivants du code du travail)
+            </div>
+        </div>
+        <div class="lire">(Lire ATTENTIVEMENT la notice Cerfa avant de remplir ce document)</div>
+    </div>
+    <div class="text-cerfa">
+
+        <img alt="" src="./logocerfasvg.png" width="250">
+        <span class="self"> N° 10103*10</span>
+    </div>
+</header>
+
+<section id="section-1">
+    <h4>Mode contractuel de l’apprentissage</h4>
+    <form action="" id="form">
+        <div class="bac-employeur">
+
+            <div class="employeur">
+                <span> L'EMPLOYEUR </span>
+                <div class="radio-center-flex">
+                    <input checked id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
+                    <label for="employeur_prive">employeur privé</label>
+                </div>
+                <div class="radio-center-flex">
+                    <input id="employeur_public" name="employeur" type="radio" value="employeur_public">
+                    <label for="employeur_public">employeur « public »&#42;</label>
+                </div>
+            </div>
+        </div>
+        <div class="case1">
+            <div class="colonne-gauche">
+
+                    <div class="child1">
+                        <label class="item1" for="nom">Nom et prénom ou dénomination :</label>
+                        <input class="item2 input1-col-gauche" id="nom" name="nom" type="text">
+                    </div>
+
+                    <div class="child2" >Adresse de l’établissement d’exécution du contrat :</div>
+                      <div class="child3">
+                          <div>
+                              <label class="item4" for="adresse">N° :</label><input class="item5" id="adresse" name="adresse" type="text">
+                          </div>
+
+                          <div>
+                              <label class="item6" for="voie">Voie :</label><input class="item7" id="voie" name="voie" type="text">
+                          </div>
+                      </div>
+
+                        <div class="child4">
+                            <label class="item8" for="complement">Complément :</label><input class="item9" id="complement" name="complement" type="text">
+                        </div>
+
+
+
+                       <div class="child5">
+                           <label class="item10" for="codepostal">Code postal :</label><input class="item11" id="codepostal" name="codepostal" type="number">
+                       </div>
+
+
+
+                        <div class="child6">
+                            <label class="item12" for="commune">Commune :</label><input class="item13" id="commune" name="commune" type="text">
+                        </div>
+
+
+
+
+                        <div class="child7">
+                            <label class="item14" for="telephone">Téléphone :</label><input class="item15" id="telephone" name="telephone" type="tel">
+                        </div>
+
+
+                   <div class="child8">
+                       <label class="item16" for="email1">Couriel :</label>
+                       <div class="email-input">
+                           <input type="text" id="email1" placeholder="">
+                           <span>@</span>
+                           <input type="text" id="email2" placeholder="">
+                       </div>
+                   </div>
+
+            </div>
+            <div class="colonne-droite">
+                <div class="coldroite1">
+                    <label class="siretlabel" for="siret"><span class="siretNum">N°SIRET</span> de l’établissement d’exécution du contrat :</label>
+                    <input type="text" name="" id="siret">
+                </div>
+                <div class="coldroite2">
+                    <label for="typeemployeur">Type d’employeur :</label>
+                    <input type="text" name="" id="typeemployeur">
+                </div>
+                <div class="coldroite3">
+                    <label for="specifique">Employeur spécifique :</label>
+                    <input type="text" name="specifique" id="specifique">
+                </div>
+                <div class="coldroite4">
+                    <label for="codeact">Code activité de l’entreprise (NAF) :</label>
+                    <input type="text" name="codeact" id="codeact">
+                </div>
+                <div class="coldroite5">
+                    <label class="siretlabel" for="effectif">Effectif total salariés de l’entreprise :</label>
+                    <input type="text" name="effectif" id="effectif">
+                </div>
+                <div class="coldroite6">
+                    <label class="siretlabel" for="codeicc">Code IDCC de la convention collective applicable :</label>
+                    <input type="text" name="codeicc" id="codeicc">
+                </div>
+            </div>
+            <div class="ligne">
+                <label for="adhesion"><span class="bold">*Pour les employeurs du secteur public,</span> adhésion de l’apprenti au régime spécifique d’assurance chômage :</label>
+                <input type="checkbox" name="adhesion" id="adhesion">
+            </div>
+
+        </div>
+
+
+    </form>
+</section>
+
+<!--<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input avec Placeholder en Petites Cases</title>
+    <style>
+
+        input::placeholder {
+            content: '■ ■ ■ ■ ■ ■ ■ ■'; /* Placeholder visuel avec des cases */
+            letter-spacing: 10px; /* Appliquer l'espacement aussi au placeholder */
+            color: #ccc; /* Couleur du placeholder */
+        }
+    </style>
+</head>
+<body>
+
+<label for="code">Code :</label>
+<input type="text" id="code">
+
+</body>
+</html>-->
+
+
+
+</body>
+</html>
