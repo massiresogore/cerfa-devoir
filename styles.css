@@ -217,10 +217,14 @@ input:checked {
 }
 
 .input1-col-gauche{
+    /*
     width: 81.2%;
+    */
+    width: 83.7%;
 }
 .input2-col-gauche{
-    width: 48.2%;
+    /*width: 48.2%;*/
+    width: 51.3%;
 }
 .input3-col-gauche{
    /* width: 97.2%;*/
@@ -228,25 +232,32 @@ input:checked {
 }
 
 .input4-col-gauche{
-    width: 66.2%;
+   /* width: 66.2%;*/
+    width: 68%;
 }
 .input5-col-gauche{
-    width: 19.2%;
+/*    width: 19.2%;*/
+    width: 20%;
 }
 .input6-col-gauche{
-    width: 66.2%;
+   /* width: 66.2%;*/
+    width: 68%;
 }
 .input7-col-gauche{
-    width: 43%;
-}.input8-col-gauche{
-
-     width: 51.5%;
-}.input9-col-gauche{
-      width: 35.1%;
+   /* width: 43%;*/
+    width: 44.1%;
+}
+.input8-col-gauche{
+     width: 51.7%;
+}
+.input9-col-gauche{
+      /*width: 35.1%;*/
+    width: 35.7%;
 }
 
 .input1-col-droite{
-    width: 58.1%;
+  /*  width: 58.1%;*/
+    width: 59.9%;
 }
 .input2-col-droite{
     width: 12.5%;
@@ -254,10 +265,12 @@ input:checked {
     width: 4.7%;
 }
 .input4-col-droite{
-    width: 27%;
+  /*  width: 27%;*/
+    width: 28%;
 }
 .input5-col-droite{
-    width: 27%;
+   /* width: 27%;*/
+    width: 27.8%;
 }
 
 .input6-col-droite{
@@ -307,6 +320,45 @@ input[type="text"], input[type="tel"],input[type="number"]{
 .child1, .child3, .child4, .child5, .child6, .child7, .child8
 {
     margin-bottom: var(--marge-bottom-input);
+}
+input[type="checkbox"]{
+    --webkit-appearance: none;
+    appearance: none;
+}
+
+.ligne input[type="checkbox"]{
+    position: relative;
+    width: 2em;
+    height: 2.1em;
+    border: 1px solid gray;
+
+    color: black;
+
+}
+.ligne input[type="checkbox"]::before {
+    content: "✔";
+    position: absolute;
+    font-size: 1.5em;
+   /* right: -1px;
+    top: -0.3em;*/
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    visibility: hidden;
+}
+.ligne input[type="checkbox"]:checked::before {
+    visibility: visible;
+}
+.ligne input[type="checkbox"]:disabled {
+    border-color: black;
+    background: #ddd;
+    color: gray;
+}
+
+.ligne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*************  FORM *************/
