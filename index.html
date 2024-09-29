@@ -11,69 +11,71 @@
 </head>
 <body>
 
-<header class="header">
-    <div class="">
-        <div class="text">
+    <div class="container">
+
+        <header class="header">
             <div class="">
-                <img alt="logo république française" src="images/logo-republique-francaise-.png" width="70">
-            </div>
-            <div class="text-1">
-                MINISTERE DU TRAVAIL, DE L'EMPLOI
-            </div>
-        </div>
-        <span class="header-span">ET DE L'INSERTION</span>
-    </div>
-    <div class="milieu">
-        <div class="contrat">
-            <span> Contrat d’apprentissage</span>
-            <div class="contrat-text">
-                (art. L6211-1 et suivants du code du travail)
-            </div>
-        </div>
-        <div class="lire">(Lire ATTENTIVEMENT la notice Cerfa avant de remplir ce document)</div>
-    </div>
-    <div class="text-cerfa">
-
-        <img alt="" src="images/logocerfasvg.png" width="250">
-        <span class="self"> N° 10103*10</span>
-    </div>
-</header>
-
-<section id="section-1">
-    <h4>Mode contractuel de l’apprentissage</h4>
-    <form action="" id="form">
-        <div class="bac-employeur">
-
-            <div class="employeur">
-                <span> L'EMPLOYEUR </span>
-                <div class="radio-center-flex">
-                    <input checked id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
-                    <label for="employeur_prive">employeur privé</label>
-                </div>
-                <div class="radio-center-flex">
-                    <input id="employeur_public" name="employeur" type="radio" value="employeur_public">
-                    <label for="employeur_public">employeur « public »&#42;</label>
-                </div>
-            </div>
-        </div>
-        <div class="case1">
-            <div class="colonne-gauche">
-
-                    <div class="child1">
-                        <label class="item1" for="nom">Nom et prénom ou dénomination :</label>
-                        <input class="item2 input1-col-gauche" id="nom" name="nom" type="text">
+                <div class="text">
+                    <div class="">
+                        <img alt="logo république française" src="images/logo-republique-francaise-.png" width="70">
                     </div>
+                    <div class="text-1">
+                        MINISTERE DU TRAVAIL, DE L'EMPLOI
+                    </div>
+                </div>
+                <span class="header-span">ET DE L'INSERTION</span>
+            </div>
+            <div class="milieu">
+                <div class="contrat">
+                    <span> Contrat d’apprentissage</span>
+                    <div class="contrat-text">
+                        (art. L6211-1 et suivants du code du travail)
+                    </div>
+                </div>
+                <div class="lire">(Lire ATTENTIVEMENT la notice Cerfa avant de remplir ce document)</div>
+            </div>
+            <div class="text-cerfa">
 
-                    <div class="child2" >Adresse de l’établissement d’exécution du contrat :</div>
-                      <div class="child3">
-                          <div>
-                              <label class="item4" for="adresse">N° :</label><input class="item5 input2-col-gauche" id="adresse" name="adresse" type="text">
-                          </div>
+                <img alt="" src="images/logocerfasvg.png" width="250">
+                <span class="self"> N° 10103*10</span>
+            </div>
+        </header>
 
-                          <div>
-                              <label class="item6" for="voie">Voie:</label><input class="item7 input3-col-gauche" id="voie" name="voie" type="text">
-                          </div>
-                      </div>
+        <section id="section-1">
+            <h4>Mode contractuel de l’apprentissage</h4>
+            <form action="" id="form">
+                <div class="bac-employeur">
+
+                    <div class="employeur">
+                        <span> L'EMPLOYEUR </span>
+                        <div class="radio-center-flex">
+                            <input checked id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
+                            <label for="employeur_prive">employeur privé</label>
+                        </div>
+                        <div class="radio-center-flex">
+                            <input id="employeur_public" name="employeur" type="radio" value="employeur_public">
+                            <label for="employeur_public">employeur « public »&#42;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="case1">
+                    <div class="colonne-gauche">
+
+                        <div class="child1">
+                            <label class="item1" for="nom">Nom et prénom ou dénomination :</label>
+                            <input class="item2 input1-col-gauche" id="nom" name="nom" type="text">
+                        </div>
+
+                        <div class="child2" >Adresse de l’établissement d’exécution du contrat :</div>
+                        <div class="child3">
+                            <div>
+                                <label class="item4" for="adresse">N° :</label><input class="item5 input2-col-gauche" id="adresse" name="adresse" type="text">
+                            </div>
+
+                            <div>
+                                <label class="item6" for="voie">Voie:</label><input class="item7 input3-col-gauche" id="voie" name="voie" type="text">
+                            </div>
+                        </div>
 
                         <div class="child4">
                             <label class="item8" for="complement">Complément :</label><input class="item9 input4-col-gauche" id="complement" name="complement" type="text">
@@ -81,9 +83,9 @@
 
 
 
-                       <div class="child5">
-                           <label class="item10" for="codepostal">Code postal :</label><input class="item11 input5-col-gauche" id="codepostal" name="codepostal" type="number">
-                       </div>
+                        <div class="child5">
+                            <label class="item10" for="codepostal">Code postal :</label><input class="item11 input5-col-gauche" id="codepostal" name="codepostal" type="number">
+                        </div>
 
 
 
@@ -99,244 +101,263 @@
                         </div>
 
 
-                   <div class="child8">
-                       <label class="item16" for="email1">Couriel :</label>
-                       <div class="email-input">
-                           <input type="text" class="input8-col-gauche" id="email1" placeholder="">
-                           <span>@</span>
-                           <input type="text" class="input9-col-gauche" id="email2" placeholder="">
-                       </div>
-                   </div>
+                        <div class="child8">
+                            <label class="item16" for="email1">Couriel :</label>
+                            <div class="email-input">
+                                <input type="text" class="input8-col-gauche" id="email1" placeholder="">
+                                <span>@</span>
+                                <input type="text" class="input9-col-gauche" id="email2" placeholder="">
+                            </div>
+                        </div>
 
-            </div>
-            <div class="colonne-droite">
-                <div class="coldroite1">
-                    <label class="siretlabel" for="siret"><span class="siretNum">N°SIRET</span> de l’établissement d’exécution du contrat :</label>
-                    <input type="text" class="input1-col-droite" name="" id="siret">
-                </div>
-                <div class="coldroite2">
-                    <label for="typeemployeur">Type d’employeur :</label>
-                    <input type="text" class="input2-col-droite" name="" id="typeemployeur">
-                </div>
-                <div class="coldroite3">
-                    <label for="specifique">Employeur spécifique :</label>
-                    <input type="text" class="input3-col-droite" name="specifique" id="specifique">
-                </div>
-                <div class="coldroite4">
-                    <label for="codeact">Code activité de l’entreprise (NAF) :</label>
-                    <input type="text" class="input4-col-droite" name="codeact" id="codeact">
-                </div>
-                <div class="coldroite5">
-                    <label class="siretlabel" for="effectif">Effectif total salariés de l’entreprise :</label>
-                    <input type="text" class="input5-col-droite" name="effectif" id="effectif">
-                </div>
-                <div class="coldroite6">
-                    <label class="siretlabel" for="codeicc">Code IDCC de la convention collective applicable :</label>
-                    <input type="text" class="input6-col-droite" name="codeicc" id="codeicc">
-                </div>
-            </div>
-            <div class="ligne">
-                <label for="adhesion"><span class="bold">*Pour les employeurs du secteur public,</span> adhésion de l’apprenti au régime spécifique d’assurance chômage :</label>
-                <input type="checkbox" name="adhesion" id="adhesion">
-            </div>
-
-        </div>
-
-        <!--------------------CASE 2-------------------->
-       <div>L'APPRENTI</div>
-        <div class="case2">
-            <div class="ligne">
-                <div class="case2-ligne-child1">
-                    <label class="" for="nomnaissance">Nom de naissance de l’apprenti(e) :</label>
-                    <input class="case2-ligne-child1-input1" id="nomnaissance" name="nomnaissance" type="text">
-                </div>
-                <div class="case2-ligne-child2">
-                    <label class="" for="nomusage">Nom d’usage :</label>
-                    <input class="case2-ligne-child2-input2" id="nomusage" name="nomusage" type="text">
-                </div>
-                <div class="case3-ligne-child3">
-                    <label class="" for="premierprenom">Le premier prénom de l’apprenti(e) selon l’état civil :</label>
-                    <input class="case2-ligne-child3-input3" id="premierprenom" name="premierprenom" type="text">
-                </div>
-            </div>
-            <div class="colonne1">
-                <div class="case2-colonne1-child1">
-                    <label class="" for="nirapprenti">NIR de l’apprenti(e) :</label>
-                    <input class="case2-colonne1-child1-input1" id="nirapprenti" name="nirapprenti" type="text">
-                </div>
-                <div class="case2-colonne1-child2" >Adresse de l’apprenti(e) :</div>
-                <div class="case2-colonne1-child3">
-                    <div>
-                        <label class="item4" for="adresseapprenti">N° :</label>
-                        <input class="case2-colonne1-child3-input2" id="adresseapprenti" name="adresse" type="text">
                     </div>
-                    <div>
-                        <label class="item6" for="voieapprenti">Voie:</label>
-                        <input class="case2-colonne1-child3-input3" id="voieapprenti" name="voie" type="text">
+                    <div class="colonne-droite">
+                        <div class="coldroite1">
+                            <label class="siretlabel" for="siret"><span class="siretNum">N°SIRET</span> de l’établissement d’exécution du contrat :</label>
+                            <input type="text" class="input1-col-droite" name="" id="siret">
+                        </div>
+                        <div class="coldroite2">
+                            <label for="typeemployeur">Type d’employeur :</label>
+                            <input type="text" class="input2-col-droite" name="" id="typeemployeur">
+                        </div>
+                        <div class="coldroite3">
+                            <label for="specifique">Employeur spécifique :</label>
+                            <input type="text" class="input3-col-droite" name="specifique" id="specifique">
+                        </div>
+                        <div class="coldroite4">
+                            <label for="codeact">Code activité de l’entreprise (NAF) :</label>
+                            <input type="text" class="input4-col-droite" name="codeact" id="codeact">
+                        </div>
+                        <div class="coldroite5">
+                            <label class="siretlabel" for="effectif">Effectif total salariés de l’entreprise :</label>
+                            <input type="text" class="input5-col-droite" name="effectif" id="effectif">
+                        </div>
+                        <div class="coldroite6">
+                            <label class="siretlabel" for="codeicc">Code IDCC de la convention collective applicable :</label>
+                            <input type="text" class="input6-col-droite" name="codeicc" id="codeicc">
+                        </div>
+                    </div>
+                    <div class="ligne">
+                        <label for="adhesion"><span class="bold">*Pour les employeurs du secteur public,</span> adhésion de l’apprenti au régime spécifique d’assurance chômage :</label>
+                        <input type="checkbox" name="adhesion" id="adhesion">
+                    </div>
+
+                </div>
+
+                <!--------------------CASE 2-------------------->
+                <div class="apprenti-case2">L'APPRENTI</div>
+                <div class="case2">
+                    <div class="ligne">
+                        <div class="case2-ligne-child1">
+                            <label class="" for="nomnaissance">Nom de naissance de l’apprenti(e) :</label>
+                            <input class="case2-ligne-child1-input1" id="nomnaissance" name="nomnaissance" type="text">
+                        </div>
+                        <div class="case2-ligne-child2">
+                            <label class="" for="nomusage">Nom d’usage :</label>
+                            <input class="case2-ligne-child2-input2" id="nomusage" name="nomusage" type="text">
+                        </div>
+                        <div class="case3-ligne-child3">
+                            <label class="" for="premierprenom">Le premier prénom de l’apprenti(e) selon l’état civil :</label>
+                            <input class="case2-ligne-child3-input3" id="premierprenom" name="premierprenom" type="text">
+                        </div>
+                    </div>
+                    <div class="colonne1">
+                        <div class="case2-colonne1-child1">
+                            <label class="" for="nirapprenti">NIR de l’apprenti(e) :</label>
+                            <input class="case2-colonne1-child1-input1" id="nirapprenti" name="nirapprenti" type="text">
+                        </div>
+                        <div class="case2-colonne1-child2" > <b>Adresse de l’apprenti(e) :</b></div>
+                        <div class="case2-colonne1-child3">
+                            <div>
+                                <label class="item4" for="adresseapprenti">N° :</label>
+                                <input class="case2-colonne1-child3-input2" id="adresseapprenti" name="adresse" type="text">
+                            </div>
+                            <div>
+                                <label class="item6" for="voieapprenti">Voie:</label>
+                                <input class="case2-colonne1-child3-input3" id="voieapprenti" name="voie" type="text">
+                            </div>
+                        </div>
+                        <div class="case2-colonne1-child4">
+                            <label  for="complementapprenti">Complément :</label>
+                            <input class="case2-colonne1-child4-input4" id="complementapprenti" name="complementapprenti" type="text">
+                        </div>
+
+                        <div class="case2-colonne1-child5">
+                            <label class="item10" for="codepostalapprenti">Code postal :</label>
+                            <input class="case2-colonne1-child5-input5" id="codepostalapprenti" name="codepostal" type="number">
+                        </div>
+
+                        <div class="case2-colonne1-child6">
+                            <label class="item12" for="communeapprenti">Commune :</label>
+                            <input class="case2-colonne1-child6-input6" id="communeapprenti" name="communeapprenti" type="text">
+                        </div>
+
+                        <div class="case2-colonne1-child7">
+                            <label  for="telephoneapprenti">Téléphone :</label>
+                            <input class="case2-colonne1-child7-input7" id="telephoneapprenti" name="telephoneapprenti" type="tel">
+                        </div>
+
+                        <div class="case2-colonne1-child8">
+                            <label class="item16" for="emailapprenti">Couriel :</label>
+                            <div class="email-input">
+                                <input type="text" class="case2-colonne1-child8-input8" id="emailapprenti" placeholder="">
+                                <span>@</span>
+                                <input type="text" class="case2-colonne1-child8-input9" id="emailapprenti2" placeholder="">
+                            </div>
+                        </div>
+                        <div class="case2-colonne1-child9"><b>Représentant légal</b> <span> (à renseigner si l’apprenti est mineur non
+                        émancipé)</span>
+                        </div>
+                        <div class="case2-colonne1-child10">
+                            <label class="" for="nomnaissanceprenom">Nom de naissance et prénom :</label>
+                            <input class=" case2-colonne1-child10-input10" id="nomnaissanceprenom" name="nom" type="text">
+                        </div>
+                        <div class="case2-colonne1-child2" > <b>Adresse du représentant légal :</b></div>
+                        <div class="case2-colonne1-child3">
+                            <div>
+                                <label class="item4" for="adresserepresentent">N° :</label>
+                                <input class="case2-colonne1-child3-input2" id="adresserepresentent" name="adresse" type="text">
+                            </div>
+                            <div>
+                                <label class="item6" for="voierepresentent">Voie:</label>
+                                <input class="case2-colonne1-child3-input3" id="voierepresentent" name="voie" type="text">
+                            </div>
+                        </div>
+
+                        <div class="case2-colonne1-child4">
+                            <label  for="complementrepresentent">Complément :</label>
+                            <input class="case2-colonne1-child4-input4" id="complementrepresentent" name="complementrepresentent" type="text">
+                        </div>
+
+                        <div class="case2-colonne1-child5">
+                            <label class="item10" for="codepostalrepresentent">Code postal :</label>
+                            <input class="case2-colonne1-child5-input5" id="codepostalrepresentent" name="codepostal" type="number">
+                        </div>
+
+                        <div class="case2-colonne1-child6">
+                            <label class="item12" for="communerepresentent">Commune :</label>
+                            <input class="case2-colonne1-child6-input6" id="communerepresentent" name="communerepresentent" type="text">
+                        </div>
+                        <div class="case2-colonne1-child8">
+                            <label class="item16" for="emailrepresentent">Couriel :</label>
+                            <div class="email-input">
+                                <input type="text" class="case2-colonne1-child8-input8" id="emailrepresentent" placeholder="">
+                                <span>@</span>
+                                <input type="text" class="case2-colonne1-child8-input9" id="emailrepresentent2" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colonne2">
+                        <div class="case2-colonne2-child1">
+                            <label  for="datenaissanceapprenti">Date de naissance :</label>
+                            <input class="case2-colonne2-child1-input1" id="datenaissanceapprenti" name="datenaissanceapprenti" type="date">
+                        </div>
+                        <div class="case2-colonne2-child2">
+                            <span>Sexe :</span>
+                            <div class="flex">
+                                <input  id="masculin" class="case2-colonne2-child2-input2" name="sexe" type="radio" value="masculin">
+                                <label for="masculin">M</label>
+                            </div>
+                            <div class="flex">
+                                <input id="feminin" name="sexe" class="case2-colonne2-child2-input3" type="radio" value="feminin">
+                                <label for="feminin">F</label>
+                            </div>
+                        </div>
+                        <div class="case2-colonne2-child3">
+                            <label  for="departnaissance">Département de naissance :</label>
+                            <input class="case2-colonne2-child3-input4" id="departnaissance" name="departnaissance" type="text">
+                        </div>
+                        <div class="case2-colonne2-child4">
+                            <label for="communenaissance">Commune de naissance :</label>
+                            <input class="case2-colonne2-child4-input5" id="communenaissance" name="nom" type="text">
+                        </div>
+
+                        <div class="case2-colonne2-child5">
+                            <div>
+                                <label class="item4" for="nationalite">Nationalité :</label>
+                                <input class="case2-colonne2-child5-input6" id="nationalite" name="adresse" type="text">
+                            </div>
+                            <div>
+                                <label class="item6" for="regimesocial">Régime social :</label>
+                                <input class="case2-colonne2-child5-input6" id="regimesocial" name="voie" type="text">
+                            </div>
+                        </div>
+
+                        <div class="case2-colonne2-child6">
+                            <span > Déclare être inscrit sur la liste des sportifs de haut niveau : </span>
+                            <div class="flex niveau-sportif">
+                                <div class="">
+                                    <input  id="oui" class="case2-colonne2-child6-input8" name="niveau1" type="radio" value="oui">
+                                    <label for="oui">OUI</label>
+                                </div>
+                                <div class="">
+                                    <input checked id="non" name="niveau1" class="case2-colonne2-child6-input9" type="radio" value="non">
+                                    <label for="non">NON</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="case2-colonne2-child6">
+                            <span >Déclare bénéficier de la reconnaissance travailleur handicapé : </span>
+                            <div class="flex niveau-sportif2">
+                                <div class="">
+                                    <input checked  id="ouiandicap" class="case2-colonne2-child6-input8" name="niveau2" type="radio" value="ouiandicap">
+                                    <label for="ouiandicap">OUI</label>
+                                </div>
+                                <div class="">
+                                    <input  id="nonandicap" name="niveau2" class="case2-colonne2-child6-input9" type="radio" value="nonandicap">
+                                    <label for="nonandicap">NON</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="case2-colonne2-child7">
+                            <label for="situation">Situation avant ce contrat :</label>
+                            <input class="case2-colonne2-child7-input10" id="situation" name="nom" type="text">
+                        </div>
+                        <div class="case2-colonne2-child8">
+                            <label for="derdiplome">Dernier diplôme ou titre préparé :</label>
+                            <input class="case2-colonne2-child8-input11" id="derdiplome" name="nom" type="text">
+                        </div>
+                        <div class="case2-colonne2-child9">
+                            <label for="derniereclasse">Dernière classe / année suivie :</label>
+                            <input class="case2-colonne2-child9-input12" id="derniereclasse" name="nom" type="text">
+                        </div>
+                        <div class="case2-colonne2-child10">
+                            <label for="intituledernierdiplome">Intitulé précis du dernier diplôme ou titre préparé :</label>
+                            <input class="case2-colonne2-child10-input13" id="intituledernierdiplome" name="nom" type="text">
+                        </div>
+                        <div class="case2-colonne2-child11">
+                            <label for="titreeleve">Diplôme ou titre le plus élevé obtenu :</label>
+                            <input class="case2-colonne2-child11-input14" id="titreeleve" name="nom" type="text">
+                        </div>
+
+                        <div class="case2-colonne2-child12">
+                            <span> Déclare avoir un projet de création ou de reprise d’entreprise : </span>
+                            <div class="flex niveau-sportif3">
+                                <div >
+                                    <input checked id="aentreprise" class="case2-colonne2-child12-input15" name="niveau" type="radio" value="oui">
+                                    <label for="aentreprise">OUI</label>
+                                </div>
+                                <div class="">
+                                    <input id="aentreprise2" name="niveau" class="case2-colonne2-child12-input16" type="radio" value="non">
+                                    <label for="aentreprise2">NON</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
                     </div>
                 </div>
-                <div class="case2-colonne1-child4">
-                    <label  for="complementapprenti">Complément :</label>
-                    <input class="case2-colonne1-child4-input4" id="complementapprenti" name="complementapprenti" type="text">
-                </div>
-
-                <div class="case2-colonne1-child5">
-                    <label class="item10" for="codepostalapprenti">Code postal :</label>
-                    <input class="case2-colonne1-child5-input5" id="codepostalapprenti" name="codepostal" type="number">
-                </div>
-
-                <div class="case2-colonne1-child6">
-                    <label class="item12" for="communeapprenti">Commune :</label>
-                    <input class="case2-colonne1-child6-input6" id="communeapprenti" name="communeapprenti" type="text">
-                </div>
-
-                <div class="case2-colonne1-child7">
-                    <label  for="telephoneapprenti">Téléphone :</label>
-                    <input class="case2-colonne1-child7-input7" id="telephoneapprenti" name="telephoneapprenti" type="tel">
-                </div>
-
-                <div class="case2-colonne1-child8">
-                    <label class="item16" for="emailapprenti">Couriel :</label>
-                    <div class="email-input">
-                        <input type="text" class="case2-colonne1-child8-input8" id="emailapprenti" placeholder="">
-                        <span>@</span>
-                        <input type="text" class="case2-colonne1-child8-input9" id="emailapprenti2" placeholder="">
-                    </div>
-                </div>
-                <p class="case2-colonne1-child9">Représentant légal (à renseigner si l’apprenti est mineur non
-                    émancipé)
-                </p>
-                <div class="case2-colonne1-child10">
-                    <label class="item1" for="nomnaissanceprenom">Nom de naissance et prénom :</label>
-                    <input class="item2 input1-col-gauche" id="nomnaissanceprenom" name="nom" type="text">
-                </div>
-                <div class="case2-colonne1-child2" >Adresse du représentant légal :</div>
-                <div class="case2-colonne1-child3">
-                    <div>
-                        <label class="item4" for="adresserepresentent">N° :</label>
-                        <input class="case2-colonne1-child3-input2" id="adresserepresentent" name="adresse" type="text">
-                    </div>
-                    <div>
-                        <label class="item6" for="voierepresentent">Voie:</label>
-                        <input class="case2-colonne1-child3-input3" id="voierepresentent" name="voie" type="text">
-                    </div>
-                </div>
-
-                <div class="case2-colonne1-child4">
-                    <label  for="complementrepresentent">Complément :</label>
-                    <input class="case2-colonne1-child4-input4" id="complementrepresentent" name="complementrepresentent" type="text">
-                </div>
-
-                <div class="case2-colonne1-child5">
-                    <label class="item10" for="codepostalrepresentent">Code postal :</label>
-                    <input class="case2-colonne1-child5-input5" id="codepostalrepresentent" name="codepostal" type="number">
-                </div>
-
-                <div class="case2-colonne1-child6">
-                    <label class="item12" for="communerepresentent">Commune :</label>
-                    <input class="case2-colonne1-child6-input6" id="communerepresentent" name="communerepresentent" type="text">
-                </div>
-                <div class="case2-colonne1-child8">
-                    <label class="item16" for="emailrepresentent">Couriel :</label>
-                    <div class="email-input">
-                        <input type="text" class="case2-colonne1-child8-input8" id="emailrepresentent" placeholder="">
-                        <span>@</span>
-                        <input type="text" class="case2-colonne1-child8-input9" id="emailrepresentent2" placeholder="">
-                    </div>
-                </div>
-            </div>
-            <div class="colonne2">
-                <div class="case2-colonne2-child1">
-                    <label  for="datenaissanceapprenti">Date de naissance :</label>
-                    <input class="case2-colonne2-child1-input1" id="datenaissanceapprenti" name="datenaissanceapprenti" type="date">
-                </div>
-                <div class="case2-colonne2-child2">
-                    <span>Sexe :</span>
-                    <div class="flex">
-                        <input checked id="masculin" class="case2-colonne2-child2-input2" name="sexe" type="radio" value="masculin">
-                        <label for="masculin">M</label>
-                    </div>
-                    <div class="flex">
-                        <input id="feminin" name="sexe" class="case2-colonne2-child2-input3" type="radio" value="feminin">
-                        <label for="feminin">F</label>
-                    </div>
-                </div>
-                <div class="case2-colonne2-child3">
-                    <label  for="departnaissance">Département de naissance :</label>
-                    <input class="case2-colonne2-child3-input4" id="departnaissance" name="departnaissance" type="text">
-                </div>
-                <div class="case2-colonne2-child4">
-                    <label for="communenaissance">Commune de naissance :</label>
-                    <input class="case2-colonne2-child4-input5" id="communenaissance" name="nom" type="text">
-                </div>
-
-                <div class="case2-colonne2-child5">
-                    <div>
-                        <label class="item4" for="nationalite">Nationalité :</label>
-                        <input class="case2-colonne2-child5-input6" id="nationalite" name="adresse" type="text">
-                    </div>
-                    <div>
-                        <label class="item6" for="regimesocial">Régime social :</label>
-                        <input class="case2-colonne2-child5-input7" id="regimesocial" name="voie" type="text">
-                    </div>
-                </div>
-
-                <div class="case2-colonne2-child6">
-                    <span> Déclare être inscrit sur la liste des sportifs de haut niveau : </span>
-                    <div class="">
-                        <input checked id="oui" class="case2-colonne2-child6-input8" name="niveau" type="radio" value="oui">
-                        <label for="oui">OUI</label>
-                    </div>
-                    <div class="">
-                        <input id="non" name="niveau" class="case2-colonne2-child6-input9" type="radio" value="non">
-                        <label for="non">NON</label>
-                    </div>
-                </div>
-
-                <div class="case2-colonne2-child7">
-                    <label for="situation">Situation avant ce contrat :</label>
-                    <input class="case2-colonne2-child7-input10" id="situation" name="nom" type="text">
-                </div>
-                <div class="case2-colonne2-child8">
-                    <label for="derdiplome">Dernier diplôme ou titre préparé :</label>
-                    <input class="case2-colonne2-child8-input11" id="derdiplome" name="nom" type="text">
-                </div>
-                <div class="case2-colonne2-child9">
-                    <label for="derniereclasse">Dernière classe / année suivie :</label>
-                    <input class="case2-colonne2-child9-input12" id="derniereclasse" name="nom" type="text">
-                </div>
-                <div class="case2-colonne2-child10">
-                    <label for="intituledernierdiplome">Intitulé précis du dernier diplôme ou titre préparé :</label>
-                    <input class="case2-colonne2-child10-input13" id="intituledernierdiplome" name="nom" type="text">
-                </div>
-                <div class="case2-colonne2-child11">
-                    <label for="titreeleve">Diplôme ou titre le plus élevé obtenu :</label>
-                    <input class="case2-colonne2-child11-input14" id="titreeleve" name="nom" type="text">
-                </div>
-
-                <div class="case2-colonne2-child12">
-                    <span> Déclare avoir un projet de création ou de reprise d’entreprise : </span>
-                    <div class="">
-                        <input checked id="aentreprise" class="case2-colonne2-child12-input15" name="niveau" type="radio" value="oui">
-                        <label for="aentreprise">OUI</label>
-                    </div>
-                    <div class="">
-                        <input id="aentreprise2" name="niveau" class="case2-colonne2-child12-input16" type="radio" value="non">
-                        <label for="aentreprise2">NON</label>
-                    </div>
-                </div>
 
 
+            </form>
+        </section>
 
-
-
-            </div>
-        </div>
-
-
-    </form>
-</section>
-
+    </div>
 
 </body>
 </html>
