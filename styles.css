@@ -375,4 +375,68 @@ input[type="checkbox"]{
     align-items: center;
 }
 
+/*Case2*/
+.case2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  repeat(2, auto);
+}
+.case2 .ligne{
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--h4);
+    font-weight: bold;
+}
+.case2 *{
+    text-align: start;
+}
+.case2 .case2-ligne-child1-input1{
+    width: 52rem;
+}
+.case2 .case2-ligne-child2-input2{
+    width: 64.3rem;
+}
+.case2 .case2-ligne-child3-input3{
+    width: 39.2rem;
+}
+.case2 .case2-colonne1-child3{
+    display: flex;
+}
+
+.case2-colonne1-child1-input1 {
+    width: 23.6rem;
+}
+.case2-colonne1-child3-input2{
+    width: 4.7rem;
+}
+
+.case2-colonne1-child3-input3{
+    width: 26.7rem;
+}
+.case2-colonne1-child4-input4{
+    width: 26.7rem;
+}
+.case2-colonne1-child5-input5{
+    width: 7.9rem;
+}
+.case2-colonne1-child6-input6{
+    width: 26.7rem;
+}
+.case2-colonne1-child7-input7{
+    width: 17.3rem;
+}
+.case2-colonne1-child8-input8{
+    width: 17.3rem;
+}.case2-colonne1-child8-input9{
+    width: 17.3rem;
+}
+
+.case2 .case2-colonne2-child1, .flex{
+    display: flex;
+}
+/*End Case2*/
+
 /*************  FORM *************/
