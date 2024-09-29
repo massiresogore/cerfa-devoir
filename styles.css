@@ -159,27 +159,6 @@
 }
 
 
-input[type="radio"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-
-    border: 2px solid #999;
-    transition: 0.2s all linear;
-    /*margin-right: 5px;*/
-
-   /* position: relative;
-    top: 4px;*/
-    margin-block-start: 0;
-}
-
-input:checked {
-    border: 5px solid black;
-}
 
 .radio-center-flex{
     display: flex;
@@ -321,6 +300,37 @@ input[type="text"], input[type="tel"],input[type="number"]{
 {
     margin-bottom: var(--marge-bottom-input);
 }
+
+input[type="radio"]{
+    --webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="radio"]{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+input[type="radio"]::before{
+    content: "\2714";
+    position: absolute;
+    font-size: 1.2em;
+    /* right: -1px;
+     top: -0.3em;*/
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    visibility: hidden;
+
+}input[type="radio"]:checked::before{
+   visibility: visible;
+
+}
+
+
 input[type="checkbox"]{
     --webkit-appearance: none;
     appearance: none;
@@ -331,20 +341,20 @@ input[type="checkbox"]{
     width: 2em;
     height: 2.1em;
     border: 1px solid gray;
-
     color: black;
 
 }
 .ligne input[type="checkbox"]::before {
-    content: "✔";
+    content: "\2714";
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.2em;
    /* right: -1px;
     top: -0.3em;*/
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
     visibility: hidden;
+
 }
 .ligne input[type="checkbox"]:checked::before {
     visibility: visible;
