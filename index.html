@@ -626,9 +626,153 @@
                 </div>
 
                 <!--------------------CASE 5-------------------->
-                <div class="formation-case5">FORMATION</div>
+                <div class="formation-case5 bold">LA FORMATION</div>
                 <div class="case5">
+                    <div class="case5-col1">
+                        <div class="flex case5-col1-children1">
+                            <span> CFA d’entreprise : </span>
+                            <div class="flex case5-child">
+                                <input checked id="ouien" name="entreprise" type="radio" value="oui">
+                                <label for="ouien">oui</label>
+                            </div>
+                            <div class="flex case5-child">
+                                <input id="nonen" name="entreprise" type="radio" value="non">
+                                <label for="nonen">non</label>
+                            </div>
+                        </div>
+                        <div class="case5-col1-children2">
+                            <label class="" for="denominationcfa">Dénomination du CFA responsable :</label>
+                            <input class="case5-col1-children2-input" id="denominationcfa" name="denominationcfa" type="text">
+                        </div>
+                        <div class="case5-col1-children3">
+                            <label class="" for="uai">N° UAI du CFA :</label>
+                            <input class="case5-col1-children3-input" id="uai" name="uai" type="text">
+                        </div>
+                        <div class="case5-col1-children4">
+                            <label class="" for="siretcfa">N° SIRET CFA :</label>
+                            <input class="case5-col1-children4-input" id="siretcfa" name="uai" type="text">
+                        </div>
 
+                        <div class="case5-col1-children5 bold" >Adresse du CFA responsable :</div>
+                        <div class="case5-col1-children6 flex">
+                            <div>
+                                <label class="" for="adresseresponsable">N° :</label>
+                                <input class="case5-col1-children6-input1" id="adresseresponsable" name="adresseresponsable" type="text">
+                            </div>
+                            <div>
+                                <label class="" for="voieresponsable">Voie:</label>
+                                <input class="case5-col1-children6-input2" id="voieresponsable" name="voieresponsable" type="text">
+                            </div>
+                        </div>
+                        <div class="case5-col1-children7">
+                            <label class="" for="complementresponsable">Complément :</label>
+                            <input class=" case5-col1-children7-input" id="complementresponsable" name="complementresponsable" type="text">
+                        </div>
+                        <div class="case5-col1-children8">
+                            <label class="item10" for="codepostalresponsable">Code postal :</label>
+                            <input class="case5-col1-children8-input" id="codepostalresponsable" name="codepostalresponsable" type="number">
+                        </div>
+                        <div class="case5-col1-children9">
+                            <label class="item12" for="communeresponsable">Commune :</label>
+                            <input class="case5-col1-children9-input" id="communeresponsable" name="communeresponsable" type="text">
+                        </div>
+
+                        <div class="case5-col1-children10 flex">
+                            <input type="checkbox" name="lieeuforprincipal" id="lieeuforprincipal">
+                            <label for="lieeuforprincipal">Si le CFA responsable est le lieu de formation
+                                principal cochez la case ci-contre</label>
+                        </div>
+
+                        <div class="case5-col1-children11">Visa du CFA (cachet et signature du directeur) :</div>
+
+                    </div>
+                    <div class="case5-col2">
+                        <div class="case5-col2-children1">
+                            <label class="" for="diplometitrevise">Diplôme ou titre visé par l’apprenti :</label>
+                            <input class="case5-col2-children1-input" id="diplometitrevise" name="diplometitrevise" type="text">
+                        </div>
+                        <div class="case5-col2-children2">
+                            <label class="" for="intitulepreci">Intitulé précis :</label>
+                            <input class="case5-col2-children2-input" id="intitulepreci" name="intitulepreci" type="text">
+                        </div>
+                        <div class="case5-col2-children3">
+                            <label class="" for="codediplome">Code du diplôme :</label>
+                            <input class="case5-col2-children3-input" id="codediplome" name="codediplome" type="text">
+                        </div>
+                        <div class="case5-col2-children4">
+                            <label class="" for="coderncp">Code RNCP :</label>
+                            <input class="case5-col2-children4-input" id="coderncp" name="coderncp" type="text">
+                        </div>
+                        <div class="case5-col2-children5 bold">Organisation de la formation en CFA :</div>
+                        <div class="case5-col2-children6">
+                            <label class="" for="datedebutformation">Date de début de formation en CFA :</label>
+                            <input class="case5-col2-children6-input" id="datedebutformation" name="datedebutformation" type="date">
+                        </div>
+                        <div class="case5-col2-children7">
+                            <label class="" for="datefinexamen">Date prévue de fin des épreuves ou examens :</label>
+                            <input class="case5-col2-children7-input" id="datefinexamen" name="datefinexamen" type="date">
+                        </div>
+                        <div class="case5-col2-children7">
+                            <label class="" for="dureeforma">Durée de la formation :</label>
+                            <input class="case5-col2-children7-input" id="dureeforma" name="dureeforma" type="time">
+                        </div>
+                        <div class="case5-col2-children8 bold">
+                            Lieu principal de réalisation de la formation si différent du CFA responsable :
+                        </div>
+                        <div class="case5-col2-children9">
+                            <label class="" for="denolieuform">Dénomination du lieu de formation principal :</label>
+                            <input class="case5-col2-children9-input" id="denolieuform" name="denolieuform" type="text">
+                        </div>
+                        <div class="case5-col2-children10">
+                            <label class="" for="numerouai">N° UAI :</label>
+                            <input class="case5-col2-children10-input" id="numerouai" name="numerouai" type="text">
+                        </div>
+                        <div class="case5-col2-children11">
+                            <label class="" for="numerosire">N° SIRET :</label>
+                            <input class="case5-col2-children11-input" id="numerosire" name="numerosire" type="text">
+                        </div>
+
+                        <div class="case5-col2-children12 bold" >Adresse du lieu de formation principal :</div>
+                        <div class="case5-col2-children13 flex">
+                            <div>
+                                <label class="" for="adresseformaprinci">N° :</label>
+                                <input class="case5-col2-children13-input1" id="adresseformaprinci" name="adresseformaprinci" type="text">
+                            </div>
+                            <div>
+                                <label class="" for="voieformaprinci">Voie:</label>
+                                <input class="case5-col2-children13-input2" id="voieformaprinci" name="voieformaprinci" type="text">
+                            </div>
+                        </div>
+                        <div class="case5-col2-children14">
+                            <label class="" for="complementformaprinci">Complément :</label>
+                            <input class=" case5-col2-children13-input" id="complementformaprinci" name="complementformaprinci" type="text">
+                        </div>
+                        <div class="case5-col2-children15">
+                            <label class="item10" for="codepostalformaprinci">Code postal :</label>
+                            <input class="case5-col2-children15-input" id="codepostalformaprinci" name="codepostalformaprinci" type="number">
+                        </div>
+                        <div class="case5-col2-children16">
+                            <label class="item12" for="communeformaprinci">Commune :</label>
+                            <input class="case5-col2-children16-input" id="communeformaprinci" name="communeformaprinci" type="text">
+                        </div>
+                    </div>
+                    <div class="case5-ligne1">
+                        <div class="case5-col1-children10 flex">
+                            <input type="checkbox" class="case5-ligne1-input" name="attestepiecejustificatif" id="attestepiecejustificatif">
+                            <label for="attestepiecejustificatif">L’employeur atteste disposer de l’ensemble des pièces justificatives nécessaires au dépôt du contrat</label>
+                        </div>
+                    </div>
+                    <div class="case5-ligne2">
+                        <div class="case5-col1-children9">
+                            <label class="" for="faita">Fait à :</label>
+                            <input class="case5-ligne2-input" id="faita" name="faita" type="text">
+                        </div>
+                    </div>
+                    <div class="case5-ligne3 bold">Signature du représentant légal de l’apprenti(e) mineur(e)</div>
+                    <div class="case5-ligne4 flex">
+                        <div class="bold">Signature de l’employeur</div>
+                        <div class="bold">Signature de l’apprenti(e)</div>
+                    </div>
                 </div>
 
 
