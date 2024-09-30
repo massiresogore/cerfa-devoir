@@ -150,7 +150,7 @@
     max-width: 81.1rem;
     font-size: var(--h4);
 }
-.bac-employeur, .apprenti-case2, .maitre-case3, .contrat-case4{
+.bac-employeur, .apprenti-case2, .maitre-case3, .contrat-case4, .formation-case5{
     background-color: rgba(0,0,0,.1);
 }
 .employeur{
@@ -539,9 +539,8 @@ input[type="checkbox"]{
 /*End Case3*/
 
 /*End Case4*/
-.case4{
 
-}
+
 .case4-child3, .case4-child1,.case4-child4,.case4-child5, #remuneration{
     text-align: start;
 }
@@ -589,7 +588,7 @@ input[type="checkbox"]{
 }
 
 #remuneration .remu-ligne {
-    font-size: var(--h5);
+    font-size: calc(var(--h6) + 3px);
 }
  .rem-input1, .rem-input2,.rem-input5, .rem-input6{
      width: 8rem;
@@ -624,6 +623,10 @@ input[type="checkbox"]{
 .case4-child9{
     font-size: var(--h5);
     justify-content: space-between;
+}
+.case4,.case3{
+    padding: 5px var(--form-paddind) 0;
+
 }
 /*End Case4*/
 
