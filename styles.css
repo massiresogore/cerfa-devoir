@@ -408,7 +408,7 @@ input[type="checkbox"]{
     font-size: var(--h4);
     font-weight: bold;
 }
-.case2 *, .case3 *, .case3 .ligne{
+.case2 *, .case3 *, .case3 .ligne, .case4-child2{
     text-align: start;
 }
 .case2 .case2-ligne-child1-input1{
@@ -539,66 +539,78 @@ input[type="checkbox"]{
 
 /*End Case4*/
 .case4{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+
 }
-.case4-child1{
+.case4-child3, .case4-child1,.case4-child4,.case4-child5, #remuneration{
+    text-align: start;
+}
+.case4-child1 {
     display: flex;
     justify-content: space-between;
-    grid-column: 1/3;
 }
-.case4-child2{
-    grid-column: 4/7;
+.case4-child1-input1,
+.case4-child2-input2{
+    width: 5rem;
 }
-.case4-child2 .rederogation{
+.rederogation{
     font-size: var(--h5);
 }
-.case4-child1-input1, case4-child2-input2{
-    width: 5.5rem;
-}
 
+.case4-child2-input3{
+    width: 29.7rem;
+}
 .case4-child3{
-    grid-column: 1/7;
-    text-align: start;
-}
-.case4-child3-input3{
-    width: 23.6rem;
-
-}
-.case4-child4{
-    grid-column: 1/3;
-    text-align: start;
-}
-.case4-child4 p{
-    margin: 0;
-}.case4-child4 label{
-   display: block;
-    font-size: var(--h6);
-}
- .case4-child5{
-     grid-column: 3/5;
- }
-  .case4-child5 span{
-     display: block;
- }
-
-.case4-child6{
-     grid-column: 5/7;
- }
-
-.case4-child7{
     display: flex;
-    text-align: start;
-    grid-column: 1/3;
-    height: fit-content;
-}.case4-child7 label{
+    justify-content: space-between;
+}
+.case4-child3 span{
+    display: block;
+    font-size: var(--h5);
+}
+
+.case4-child4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.case4-child4-input8{
+    width: 5rem;
+}
+.case4-child5 span{
+    /*display: block;*/
+}
+#remuneration{
+    border: 1px solid blue;
+}
+#remuneration .remu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#remuneration .remu-ligne {
+    font-size: var(--h5);
+}
+ .rem-input1, .rem-input2,.rem-input5, .rem-input6{
+     width: 8rem;
+ }
+.rem-input3, .rem-input4, .rem-input7, .rem-input8,.case4-child8-input2{
+    width: 4.8rem;
+}
+.case4-child8-el1 label, .case4-child8-el2 label{
     display: block;
 }
- .case4-child8{
-     grid-column: 3/6;
- }.case4-child8 label{
-display: block }
-
+.case4-child8-input1{
+    width: 5.1rem;
+}
+.case4-child8{
+    justify-content: space-between;
+}
+.case4-child8-input3{
+    width: 42.4rem;
+}
+.case4-child8-el2,.case4-child8-el1{
+    text-align: start;
+}
 /*End Case4*/
 
 /*************  FORM *************/

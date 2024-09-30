@@ -444,47 +444,163 @@
                 <!--------------------CASE 4-------------------->
                 <div class="contrat-case4">CONTRAT</div>
                 <div class="case4">
-
-                        <div class="case4-child1">
-                            <label  for="tyecontrat">Type de contrat ou d’avenant :</label>
-                            <input class="case4-child1-input1" id="tyecontrat" name="tyecontrat" type="text">
-                        </div>
-                        <div class="case4-child2">
-                            <label  for="typederogation">Type de dérogation :</label>
-                            <input class="case4-child2-input2" id="typederogation" name="typederogation" type="text">
-                           <span class="rederogation"> à renseigner si une dérogation
+                       <div class="case4-child1">
+                           <div class="flex">
+                               <label  for="tyecontrat">Type de contrat ou d’avenant :</label>
+                               <input class="case4-child1-input1" id="tyecontrat" name="tyecontrat" type="text">
+                           </div>
+                           <div class="flex">
+                               <label  for="typederogation">Type de dérogation :</label>
+                               <input class="case4-child2-input2" id="typederogation" name="typederogation" type="text">
+                               <span class="rederogation"> à renseigner si une dérogation
                             existe pour ce contrat</span>
-                        </div>
-                    <div class="case4-child3">
+                           </div>
+                       </div>
+                    <div class="case4-child2">
                         <label  for="numcontratprec">Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :</label>
-                        <input class="case4-child3-input3" id="numcontratprec" name="numcontratprec" type="text">
+                        <input class="case4-child2-input3" id="numcontratprec" name="numcontratprec" type="text">
+                    </div>
+
+                    <div class="case4-child3">
+                        <div class="ch1">
+                            <label  for="dateconclusion">Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span></label>
+                            <input class="case4-child3-input4" id="dateconclusion" name="dateconclusion" type="date">
+                        </div>
+                        <div class="ch2">
+                            <label  for="datedebutcontrat">Date de début d’exécution du  <span>contrat :</span></label>
+                            <input class="case4-child3-input5" id="datedebutcontrat" name="dateconclusion" type="date">
+                        </div>
+                        <div class="ch3">
+                            <label  for="datedebuform">Date de début de formation pratique <span> chez l’employeur :</span></label>
+                            <input class="case4-child3-input6" id="datedebuform" name="datedebuform" type="date">
+                        </div>
                     </div>
                     <div class="case4-child4">
-                        <p>Date de conclusion :</p>
-                        <label  for="dateconclusion">(Date de signatures du présent contrat)</label>
-                        <input class="case4-child4-input4" id="dateconclusion" name="dateconclusion" type="date">
+                        <div class="">
+                            <label  for="dateeffet">Si avenant, date d’effet :</label>
+                            <input class="case4-child4-input7" id="dateeffet" name="dateeffet" type="date">
+                        </div>
+                        <div class="">
+                            <label  for="dureeheur">Durée hebdomadaire du travail :</label>
+                          <div>
+                              <input class="case4-child4-input8" id="dureeheur" name="dureeheb" type="text">
+                              <span> heures</span>
+                              <input class="case4-child4-input8" id="dureemin" name="dureeheb" type="text">
+                              <span>minutes</span>
+                          </div>
+                        </div>
+                        <div></div>
                     </div>
                     <div class="case4-child5">
-                        <label  for="datedebutcontrat">Date de début d’exécution du
-                            </label>
-                        <span>contrat :</span>
-                        <input class="case4-child5-input5" id="datedebutcontrat" name="dateconclusion" type="date">
+                        <label  for="datefincontratp">Date de fin du contrat ou de la période</label>
+                        <div class="flex">
+                            <span> d’apprentissage :</span><input class="case4-child5-input9" id="datefincontratp" name="datefincontratp" type="date">
+                        </div>
                     </div>
-                    <div class="case4-child6">
-                        <label  for="datedebuform">Date de début de formation pratique
-                            chez l’employeur :</label>
-                        <input class="case4-child6-input6" id="datedebuform" name="datedebuform" type="date">
+                    <div class="case4-child6 flex">
+                        <span> Travail sur machines dangereuses ou exposition à des risques particuliers : </span>
+                        <div class="radio-center-flex">
+                            <input checked id="ouidan" name="employeur" type="radio" value="oui">
+                            <label for="ouidan">OUI</label>
+                        </div>
+                        <div class="radio-center-flex">
+                            <input id="nondan" name="employeur" type="radio" value="non">
+                            <label for="nondan">NON</label>
+                        </div>
                     </div>
-                    <div class="case4-child7">
-                        <label  for="dateeffet">Si avenant, date d’effet :</label>
-                        <input class="case4-child7-input7" id="dateeffet" name="dateeffet" type="date">
+
+                    <div id="remuneration">
+                        <div class="remu">
+                            <div>Rémunération</div>
+                            <div>* Indiquer SMIC ou SMC (salaire minimum conventionnel)</div>
+                        </div>
+                        <div class="remu-ligne">
+                            <div class="fle annee1">
+                                <label  for="annee1de">1<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</label>
+                                <input class="rem-input1" id="annee1de" name="annee1de" type="text">
+                                <label  for="annee1au">au</label>
+                                <input class="rem-input2" id="annee1au" name="annee1au" type="text">
+                                <label  for="annee1au:">:</label>
+                                <input class="rem-input3" id="annee1au:" name="annee1au:" type="text">
+                                <label  for="annee1du">% du</label>
+                                <input class="rem-input4" id="annee1du" name="annee1du" type="text">
+                                <label  for="annee1etdu">* ; du</label>
+                                <input class="rem-input5" id="annee1etdu" name="annee1etdu" type="text">
+                                <label  for="annee1etduau2">au</label>
+                                <input class="rem-input6" id="annee1etduau2" name="annee1etduau2" type="text">
+                                <label  for="annee1etduau2:">:</label>
+                                <input class="rem-input7" id="annee1etduau2:" name="annee1etduau2:" type="text">
+                                <label  for="annee1du2">% du</label>
+                                <input class="rem-input8" id="annee1du2" name="annee1du2" type="text">*
+                            </div>
+                            <div class="fle annee2">
+                                <label  for="annee2de">2<sup>ème</sup>  année, du</label>
+                                <input class="rem-input1" id="annee2de" name="annee2de" type="text">
+                                <label  for="annee2au">au</label>
+                                <input class="rem-input2" id="annee2au" name="annee2au" type="text">
+                                <label  for="annee2au:">:</label>
+                                <input class="rem-input3" id="annee2au:" name="annee2au:" type="text">
+                                <label  for="annee2du">% du</label>
+                                <input class="rem-input4" id="annee2du" name="annee2du" type="text">
+                                <label  for="annee2etdu">* ; du</label>
+                                <input class="rem-input5" id="annee2etdu" name="annee2etdu" type="text">
+                                <label  for="annee2etduau2">au</label>
+                                <input class="rem-input6" id="annee2etduau2" name="annee2etduau2" type="text">
+                                <label  for="annee2etduau2:">:</label>
+                                <input class="rem-input7" id="annee2etduau2:" name="annee2etduau2:" type="text">
+                                <label  for="annee2du2">% du</label>
+                                <input class="rem-input8" id="annee2du2" name="annee2du2" type="text">*
+                            </div>
+                            <div class="fle annee4">
+                                <label  for="annee4de">4<sup>ème</sup>  année, du</label>
+                                <input class="rem-input1" id="annee4de" name="annee4de" type="text">
+                                <label  for="annee4au">au</label>
+                                <input class="rem-input2" id="annee4au" name="annee4au" type="text">
+                                <label  for="annee4au:">:</label>
+                                <input class="rem-input3" id="annee4au:" name="annee4au:" type="text">
+                                <label  for="annee4du">% du</label>
+                                <input class="rem-input4" id="annee4du" name="annee4du" type="text">
+                                <label  for="annee4etdu">* ; du</label>
+                                <input class="rem-input5" id="annee4etdu" name="annee4etdu" type="text">
+                                <label  for="annee4etduau2">au</label>
+                                <input class="rem-input6" id="annee4etduau2" name="annee4etduau2" type="text">
+                                <label  for="annee4etduau2:">:</label>
+                                <input class="rem-input7" id="annee4etduau2:" name="annee4etduau2:" type="text">
+                                <label  for="annee4du2">% du</label>
+                                <input class="rem-input8" id="annee4du2" name="annee4du2" type="text">*
+                            </div>
+                            <div class="fle annee3">
+                                <label  for="annee3de">3<sup>ème</sup>  année, du</label>
+                                <input class="rem-input1" id="annee3de" name="annee3de" type="text">
+                                <label  for="annee3au">au</label>
+                                <input class="rem-input2" id="annee3au" name="annee3au" type="text">
+                                <label  for="annee3au:">:</label>
+                                <input class="rem-input3" id="annee3au:" name="annee3au:" type="text">
+                                <label  for="annee3du">% du</label>
+                                <input class="rem-input4" id="annee3du" name="annee3du" type="text">
+                                <label  for="annee3etdu">* ; du</label>
+                                <input class="rem-input5" id="annee3etdu" name="annee3etdu" type="text">
+                                <label  for="annee3etduau2">au</label>
+                                <input class="rem-input6" id="annee3etduau2" name="annee3etduau2" type="text">
+                                <label  for="annee3etduau2:">:</label>
+                                <input class="rem-input7" id="annee3etduau2:" name="annee3etduau2:" type="text">
+                                <label  for="annee3du2">% du</label>
+                                <input class="rem-input8" id="annee3du2" name="annee3du2" type="text">*
+                            </div>
+                        </div>
                     </div>
-                    <div class="case4-child8">
-                        <label  for="dureeheur">Durée hebdomadaire du travail :</label>
-                        <input class="case4-child7-input7" id="dureeheur" name="dureeheb" type="text">
-                        heures
-                        <input class="case4-child7-input7" id="dureemin" name="dureeheb" type="text">
-                        minutes
+
+                    <div class="flex case4-child8">
+                        <div class="case4-child8-el1">
+                            <label  for="salairebrut">Salaire brut mensuel à l’embauche :</label>
+                            <input class="case4-child8-input1" id="salairebrut" name="salairebrut" type="text">
+                            <span>.</span>
+                            <input class="case4-child8-input2" id="salairebrutcent" name="salairebrutcent" type="text">€
+                        </div>
+                        <div class="case4-child8-el2">
+                            <label  for="caisseretraitecomp">Caisse de retraite complémentaire :</label>
+                            <input class="case4-child8-input3" id="caisseretraitecomp" name="caisseretraitecomp" type="text">
+                        </div>
                     </div>
 
 
