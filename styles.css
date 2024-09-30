@@ -309,7 +309,8 @@ input[type="text"], input[type="tel"],input[type="number"]{
 .case2-colonne2-child1,.case2-colonne2-child2,.case2-colonne2-child3,.case2-colonne2-child4,.case2-colonne2-child5,.case2-colonne2-child6,
 .case2-colonne2-child7,.case2-colonne2-child8,.case2-colonne2-child9,.case2-colonne2-child10,.case2-colonne2-child11,.case2-colonne2-child12,
 .case3-colonne1-child1, .case3-colonne1-child2, .case3-colonne1-child3, .case3-colonne1-child4, .case3-colonne1-child5, .case3-colonne1-child6,
-.case3-colonne1-child7,.case3-colonne1-child8
+.case3-colonne1-child7,.case3-colonne1-child8,
+.case4-child1, .case4-child2,.case4-child3,.case4-child4, .case4-child5, .case4-child6, #remuneration, .case4-child8
 
 {
     margin-bottom: var(--marge-bottom-input);
@@ -580,7 +581,7 @@ input[type="checkbox"]{
     /*display: block;*/
 }
 #remuneration{
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 #remuneration .remu{
     display: flex;
@@ -610,6 +611,19 @@ input[type="checkbox"]{
 }
 .case4-child8-el2,.case4-child8-el1{
     text-align: start;
+}
+.case4-child9-input1,
+.case4-child9-input2{
+    width: 5rem;
+}
+.case4-child10-input3,
+.case4-child10-input4{
+    width: 5rem;
+
+}
+.case4-child9{
+    font-size: var(--h5);
+    justify-content: space-between;
 }
 /*End Case4*/
 
