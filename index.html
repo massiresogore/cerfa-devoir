@@ -12,7 +12,6 @@
 <body>
 
     <div class="container">
-
         <header class="header">
             <div class="">
                 <div class="text">
@@ -49,11 +48,11 @@
                     <div class="employeur">
                         <span> L'EMPLOYEUR </span>
                         <div class="radio-center-flex">
-                            <input checked id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
+                            <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
                             <label for="employeur_prive">employeur privé</label>
                         </div>
                         <div class="radio-center-flex">
-                            <input id="employeur_public" name="employeur" type="radio" value="employeur_public">
+                            <input checked id="employeur_public" name="employeur" type="radio" value="employeur_public">
                             <label for="employeur_public">employeur « public »&#42;</label>
                         </div>
                     </div>
@@ -139,7 +138,7 @@
                     </div>
                     <div class="ligne">
                         <label for="adhesion"><span class="bold">*Pour les employeurs du secteur public,</span> adhésion de l’apprenti au régime spécifique d’assurance chômage :</label>
-                        <input type="checkbox" name="adhesion" id="adhesion">
+                        <input checked type="checkbox" name="adhesion" id="adhesion">
                     </div>
 
                 </div>
@@ -181,22 +180,18 @@
                             <label  for="complementapprenti">Complément :</label>
                             <input class="case2-colonne1-child4-input4" id="complementapprenti" name="complementapprenti" type="text">
                         </div>
-
                         <div class="case2-colonne1-child5">
                             <label class="item10" for="codepostalapprenti">Code postal :</label>
                             <input class="case2-colonne1-child5-input5" id="codepostalapprenti" name="codepostal" type="number">
                         </div>
-
                         <div class="case2-colonne1-child6">
                             <label class="item12" for="communeapprenti">Commune :</label>
                             <input class="case2-colonne1-child6-input6" id="communeapprenti" name="communeapprenti" type="text">
                         </div>
-
                         <div class="case2-colonne1-child7">
                             <label  for="telephoneapprenti">Téléphone :</label>
                             <input class="case2-colonne1-child7-input7" id="telephoneapprenti" name="telephoneapprenti" type="tel">
                         </div>
-
                         <div class="case2-colonne1-child8">
                             <label class="item16" for="emailapprenti">Couriel :</label>
                             <div class="email-input">
@@ -228,7 +223,6 @@
                             <label  for="complementrepresentent">Complément :</label>
                             <input class="case2-colonne1-child4-input4" id="complementrepresentent" name="complementrepresentent" type="text">
                         </div>
-
                         <div class="case2-colonne1-child5">
                             <label class="item10" for="codepostalrepresentent">Code postal :</label>
                             <input class="case2-colonne1-child5-input5" id="codepostalrepresentent" name="codepostal" type="number">
@@ -271,7 +265,6 @@
                             <label for="communenaissance">Commune de naissance :</label>
                             <input class="case2-colonne2-child4-input5" id="communenaissance" name="nom" type="text">
                         </div>
-
                         <div class="case2-colonne2-child5">
                             <div>
                                 <label class="item4" for="nationalite">Nationalité :</label>
@@ -282,7 +275,6 @@
                                 <input class="case2-colonne2-child5-input6" id="regimesocial" name="voie" type="text">
                             </div>
                         </div>
-
                         <div class="case2-colonne2-child6">
                             <span > Déclare être inscrit sur la liste des sportifs de haut niveau : </span>
                             <div class="flex niveau-sportif">
@@ -296,7 +288,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="case2-colonne2-child6">
                             <span >Déclare bénéficier de la reconnaissance travailleur handicapé : </span>
                             <div class="flex niveau-sportif2">
@@ -310,7 +301,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="case2-colonne2-child7">
                             <label for="situation">Situation avant ce contrat :</label>
                             <input class="case2-colonne2-child7-input10" id="situation" name="nom" type="text">
@@ -500,15 +490,14 @@
                     <div class="case4-child6 flex">
                         <span> Travail sur machines dangereuses ou exposition à des risques particuliers : </span>
                         <div class="radio-center-flex">
-                            <input checked id="ouidan" name="employeur" type="radio" value="oui">
+                            <input checked id="ouidan" name="dangertravail" type="radio" value="oui">
                             <label for="ouidan">OUI</label>
                         </div>
                         <div class="radio-center-flex">
-                            <input id="nondan" name="employeur" type="radio" value="non">
+                            <input id="nondan" name="dangertravail" type="radio" value="non">
                             <label for="nondan">NON</label>
                         </div>
                     </div>
-
                     <div id="remuneration">
                         <div class="remu">
                             <div>Rémunération</div>
@@ -589,7 +578,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="flex case4-child8">
                         <div class="case4-child8-el1">
                             <label  for="salairebrut">Salaire brut mensuel à l’embauche :</label>
@@ -602,7 +590,6 @@
                             <input class="case4-child8-input3" id="caisseretraitecomp" name="caisseretraitecomp" type="text">
                         </div>
                     </div>
-
                     <div class="flex case4-child9">
                         <div class="flex case4-child9-el1">
                             <label  for="avantagenature">Avantages en nature, le cas échéant : Nourriture :</label>
@@ -682,9 +669,7 @@
                             <label for="lieeuforprincipal">Si le CFA responsable est le lieu de formation
                                 principal cochez la case ci-contre</label>
                         </div>
-
                         <div class="case5-col1-children11">Visa du CFA (cachet et signature du directeur) :</div>
-
                     </div>
                     <div class="case5-col2">
                         <div class="case5-col2-children1">
@@ -806,14 +791,11 @@
                             <input class=" case6-col2-child3-input" id="numeroavenant" name="numeroavenant" type="text">
                         </div>
                     </div>
-
                 </div>
             </form>
             <p class="bold indication">Pour remplir le contrat et pour plus d’informations sur le traitement des données reportez-vous à la notice FA 14</p>
             <hr>
         </section>
-
     </div>
-
 </body>
 </html>
