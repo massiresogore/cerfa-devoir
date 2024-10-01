@@ -417,7 +417,6 @@ input[type="checkbox"]{
     right: 50%;
     transform: translate(50%, -50%);
     visibility: hidden;
-
 }/*.ligne input[type="checkbox"]::before {
     content: "\2714";
     position: absolute;

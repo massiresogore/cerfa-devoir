@@ -47,43 +47,45 @@
                 <fieldset id="contrat-apparentissage">
                     <legend>Mode contractuel de l’apprentissage</legend>
                     <div class="content-1">
-                        <div class="child1 input-contener">
+                        <div class="content-1-child1 input-contener">
                             <input class="content-1-child1-input" id="nom" name="nom" type="text">
                             <label class="" for="nom">Nom et prénom ou dénomination :</label>
                         </div>
-                        <div class="child2">
-                            <span>Adresse de l’établissement d’exécution du contrat :</span>
-                            <div class=" input-contener">
-                                <input class=" content-1-child2-input-1" id="adresse" name="adresse" type="text">
-                                <label class="" for="adresse">N° :</label>
-                            </div>
-                            <div class=" input-contener">
-                                <input class=" content-1-child2-input-2" id="voie" name="voie" type="text">
-                                <label class="item6" for="voie">Voie:</label>
-                            </div>
+                        <div class="content-1-child2">
+                            <span class="content-1-child2-el1">Adresse de l’établissement d’exécution du contrat :</span>
+
+                           <div class="content-1-child2-el2">
+                               <div class="input-contener">
+                                   <input class=" content-1-child2-input-1" id="adresse" name="adresse" type="text">
+                                   <label class="" for="adresse">N° :</label>
+                               </div>
+                               <div class=" input-contener">
+                                   <input class=" content-1-child2-input-2" id="voie" name="voie" type="text">
+                                   <label class="item6" for="voie">Voie:</label>
+                               </div>
+                           </div>
                         </div>
 
-                        <div class="child3 input-contener">
+                        <div class="content-1-child3 input-contener">
                             <input class="content-1-child3-input" id="complement" name="complement" type="text">
                             <label class="" for="complement">Complément :</label>
                         </div>
 
-                        <div class="child4 input-contener">
+                        <div class="content-1-child4 input-contener">
                             <input class="content-1-child4-input" id="codepostal" name="codepostal" type="text">
                             <label class="" for="codepostal">Code postal :</label>
                         </div>
 
-                        <div class="child5 input-contener">
+                        <div class="content-1-child5 input-contener">
                             <input class="content-1-child5-input" id="commune" name="commune" type="text">
                             <label class="" for="commune">Commune :</label>
                         </div>
 
-                        <div class="child6 input-contener">
+                        <div class="content-1-child6 input-contener">
                             <input class="content-1-child5-input" id="telephone" name="telephone" type="tel">
                             <label for="telephone">Tel :</label>
                         </div>
-
-                        <div class="child7">
+                        <div class="content-1-child7">
                             <div class=" input-contener">
                                 <input type="email" class="content-1-child7-input" id="email1" placeholder="">
                                 <label class="item16" for="email1">Couriel :</label>
@@ -119,18 +121,20 @@
                     <div class="content-3">
                            <div class="content-3-child1 input-contener">
                                <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="adhesion">
-                               <label for="adhesion">*Pour les employeurs du secteur public, adhésion de l’apprenti au régime spécifique d’assurance chômage :</label>
+                               <label for="adhesion">*Pour les employeurs du secteur public, adhésion de l’apprenti au régime spécifique d’assurance chômage</label>
                            </div>
                     </div>
                     <div class="content-4">
-                        <span> L'EMPLOYEUR </span>
-                        <div class="radio-center-flex input-contener">
-                            <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
-                            <label for="employeur_prive">employeur privé</label>
-                        </div>
-                        <div class="radio-center-flex input-contener">
-                            <input checked id="employeur_public" name="employeur" type="radio" value="employeur_public">
-                            <label for="employeur_public">employeur « public »&#42;</label>
+                        <span class="content-3-child1"> L'EMPLOYEUR </span>
+                        <div class="content-3-child2">
+                            <div class="content-3-child2-el1 input-contener">
+                                <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
+                                <label for="employeur_prive">employeur privé</label>
+                            </div>
+                            <div class="content-3-child2-el1 input-contener">
+                                <input checked id="employeur_public" name="employeur" type="radio" value="employeur_public">
+                                <label for="employeur_public">employeur « public »&#42;</label>
+                            </div>
                         </div>
                     </div>
                 </fieldset>

@@ -5,6 +5,7 @@
     :root{
         --base-size: 1rem;
         --scale: 1.25;
+        --scale-font-size: .2rem;
         --radius: 5px;
         --h1: calc(var(--h2) * var(--scale));
         --h2: calc(var(--h3) * var(--scale));
@@ -164,10 +165,13 @@
 
 #form{
     font-family: "Poppins",sans-serif;
+    font-size: calc(var(--h6) - var(--scale-font-size));
 }
 .input-contener{
-    padding-top: 33px;
+    padding-top: 20px;
+    /*padding-top: 33px; Large Screen*/
     position: relative;
+    margin-bottom: var(--form-paddind);
 }
 .input-contener input[type="text"],.input-contener input[type="tel"], .input-contener input[type="email"],.input-contener input[type="tel"]{
     --webkit-appearance: none;
@@ -177,16 +181,20 @@
     background: #FFFFFF;
     color: #222222;
     outline: none;
-    padding: 15px 16px;
+    padding: 4px 5px;
+    /*padding: 15px 16px;; Large Screen*/
     transition-property: border, padding;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
     width: 100%;
+    /*padding: 15px 16px;; Large Screen*/
 }
 
 .input-contener input[type="text"]:focus, .input-contener input[type="email"]:focus, .input-contener input[type="tel"]:focus{
-    padding-bottom: 2px;
-    padding-top: 30px;
+    padding-bottom: 5px;
+    /*padding: 2px; Large Screen*/
+    padding-top: 20px;
+    /*padding-top: 30px; Large Screen*/
     border-color: #2d9ae3;
 }
 .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,.input-contener input[type="tel"] + label {
@@ -194,7 +202,8 @@
     top: 0;
     left: 0;
     background-color: #9fa6b3;
-    padding: 5px 20px;
+    padding: 1px 5px;
+    /*padding: 5px 20px; Large Screen*/
     transition-property: top, background;
     transition-duration: 500ms;
     transition-timing-function: ease;
@@ -205,9 +214,66 @@
 .input-contener input[type="tel"]:focus  + label
 {
     background-color: #2d9ae3;
-    border: 1px solid red;
-    top: 33px;
+    top: 20px;
+    /*top: 33px; Large Screen*/
 }
 
+#contrat-apparentissage{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+/*Checkbox*/
+
+input[type="checkbox"]{
+    position: relative;
+    --webkit-appearance: none;
+    appearance: none;
+    width: 1.7rem;
+    height: 1.1rem;
+    border: 2px solid rgba(0, 0, 0, .2);
+    color: black;
+}
+input[type="checkbox"]::before {
+    content: "\2714";
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    visibility: hidden;
+}
+input[type="checkbox"]:checked::before {
+    visibility: visible;
+}
+input[type="checkbox"]:disabled {
+    border-color: black;
+    background: #ddd;
+    color: gray;
+}
+.content-3-child1{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+input[type="checkbox"]:checked{
+   content: "\2020";
+}
+.content-1-child2-el2{
+    display: flex;
+    justify-content: space-between;
+}
+.content-1-child2 span{
+    display: block;
+}
+.content-4,.content-3-child2{
+    display: flex;
+    align-items: baseline;
+}
+.content-3-child2-el1{
+    padding-top: 0;
+    margin: 0;
+}
 
 /*************  FORM *************/
