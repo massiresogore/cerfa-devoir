@@ -176,7 +176,6 @@
 .input-contener input[type="text"],.input-contener input[type="tel"], .input-contener input[type="email"],.input-contener input[type="tel"]{
     --webkit-appearance: none;
     appearance: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border: 6px solid #9fa6b3;
     background: #FFFFFF;
     color: #222222;
@@ -220,7 +219,7 @@
 
 #contrat-apparentissage{
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 /*Checkbox*/
@@ -234,7 +233,7 @@ input[type="checkbox"]{
     border: 2px solid rgba(0, 0, 0, .2);
     color: black;
 }
-input[type="checkbox"]::before {
+input[type="checkbox"]::before ,input[type="radio"]::before{
     content: "\2714";
     position: absolute;
     font-size: 1em;
@@ -242,9 +241,11 @@ input[type="checkbox"]::before {
     right: 50%;
     transform: translate(50%, -50%);
     visibility: hidden;
+
 }
-input[type="checkbox"]:checked::before {
+input[type="checkbox"]:checked::before , input[type="radio"]:checked::before{
     visibility: visible;
+
 }
 input[type="checkbox"]:disabled {
     border-color: black;
@@ -269,11 +270,28 @@ input[type="checkbox"]:checked{
 }
 .content-4,.content-3-child2{
     display: flex;
-    align-items: baseline;
+    /*align-items: baseline;*/
 }
 .content-3-child2-el1{
     padding-top: 0;
     margin: 0;
 }
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"]{
+    position: relative;
+    --webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #9fa6b3;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
 
 /*************  FORM *************/
