@@ -46,99 +46,100 @@
 
         <fieldset id="contrat-apparentissage">
             <legend>Employeur</legend>
-            <div class="block-1-apprentissage">
-                <div class="content-1-child1 input-contener">
-                    <input class="content-1-child1-input" id="nom" name="nom" type="text">
-                    <label class="" for="nom">Nom et prénom ou dénomination :</label>
-                </div>
-                <div class="content-1-child2">
-                    <span class="content-1-child2-el1">Adresse de l’établissement d’exécution du contrat :</span>
+                <div class="block-1-apprentissage">
+                    <div class="content-1-child1 input-contener">
+                        <input class="content-1-child1-input" id="nom" name="nom" type="text">
+                        <label class="" for="nom">Nom et prénom ou dénomination :</label>
+                    </div>
+                    <div class="content-1-child2">
+                        <span class="content-1-child2-el1">Adresse de l’établissement d’exécution du contrat :</span>
 
-                    <div class="content-1-child2-el2">
-                        <div class="input-contener">
-                            <input class=" content-1-child2-input-1" id="adresse" name="adresse" type="text">
-                            <label class="" for="adresse">N° :</label>
+                        <div class="content-1-child2-el2">
+                            <div class="input-contener">
+                                <input class=" content-1-child2-input-1" id="adresse" name="adresse" type="text">
+                                <label class="" for="adresse">N° :</label>
+                            </div>
+                            <div class=" input-contener">
+                                <input class=" content-1-child2-input-2" id="voie" name="voie" type="text">
+                                <label class="item6" for="voie">Voie:</label>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="content-1-child3 input-contener">
+                        <input class="content-1-child3-input" id="complement" name="complement" type="text">
+                        <label class="" for="complement">Complément :</label>
+                    </div>
+                    <div class="content-1-child4 input-contener">
+                        <input class="content-1-child4-input" id="codepostal" name="codepostal" type="text">
+                        <label class="" for="codepostal">Code postal :</label>
+                    </div>
+                </div>
+                <div class="block-2-apprentissage">
+                    <div class="content-1-child5 input-contener">
+                        <input class="content-1-child5-input" id="commune" name="commune" type="text">
+                        <label class="" for="commune">Commune :</label>
+                    </div>
+
+                    <div class="content-1-child6 input-contener">
+                        <input class="content-1-child5-input" id="telephone" name="telephone" type="tel">
+                        <label for="telephone">Tel :</label>
+                    </div>
+                    <div class="content-1-child7">
                         <div class=" input-contener">
-                            <input class=" content-1-child2-input-2" id="voie" name="voie" type="text">
-                            <label class="item6" for="voie">Voie:</label>
+                            <input type="email" class="content-1-child7-input" id="email1" placeholder="">
+                            <label class="item16" for="email1">Couriel :</label>
+                        </div>
+                    </div>
+                    <div class="content-2-child1 input-contener">
+                        <input type="text" class="content-2-child1-input" name="" id="siret">
+                        <label class="siretlabel" for="siret">N°SIRET de l’établissement d’exécution du contrat :</label>
+                    </div>
+                    <div class="content-2-child2 input-contener">
+                        <input type="text" class="content-2-child2-input" name="" id="typeemployeur">
+                        <label for="typeemployeur">Type d’employeur :</label>
+                    </div>
+                </div>
+                <div class="block-3-apprentissage">
+                    <div class="content-2-child3 input-contener">
+                        <input type="text" class="content-2-child3-input" name="specifique" id="specifique">
+                        <label for="specifique">Employeur spécifique :</label>
+                    </div>
+                    <div class="content-2-child4 input-contener">
+                        <input type="text" class="content-2-child4-input" name="codeact" id="codeact">
+                        <label for="codeact">Code activité de l’entreprise (NAF) :</label>
+                    </div>
+                    <div class="content-2-child5 input-contener">
+                        <input type="text" class="content-2-child5-input" name="effectif" id="effectif">
+                        <label class="siretlabel" for="effectif">Effectif total salariés de l’entreprise :</label>
+                    </div>
+                </div>
+                <div class="block-4-apprentissage">
+                    <div class="content-2-child6 input-contener">
+                        <input type="text" class="content-2-child6-input" name="codeicc" id="codeicc">
+                        <label class="siretlabel" for="codeicc">Code IDCC de la convention collective applicable :</label>
+                    </div>
+
+                    <div class="content-3-child1 input-contener">
+                        <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="adhesion">
+                        <label for="adhesion">*Pour les employeurs du secteur public, adhésion de l’apprenti au régime
+                            spécifique d’assurance chômage</label>
+                    </div>
+                    <div class="content-4">
+                        <span class="content-3-child1"> L'EMPLOYEUR </span>
+                        <div class="content-3-child2 ">
+                            <div class="content-3-child2-el1 input-contener flex">
+                                <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
+                                <label for="employeur_prive">employeur privé</label>
+                            </div>
+                            <div class="content-3-child2-el1 input-contener flex">
+                                <input checked id="employeur_public" name="employeur" type="radio" value="employeur_public">
+                                <label for="employeur_public">employeur « public »&#42;</label>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="content-1-child3 input-contener">
-                    <input class="content-1-child3-input" id="complement" name="complement" type="text">
-                    <label class="" for="complement">Complément :</label>
-                </div>
-                <div class="content-1-child4 input-contener">
-                    <input class="content-1-child4-input" id="codepostal" name="codepostal" type="text">
-                    <label class="" for="codepostal">Code postal :</label>
-                </div>
-            </div>
-            <div class="block-2-apprentissage">
-                <div class="content-1-child5 input-contener">
-                    <input class="content-1-child5-input" id="commune" name="commune" type="text">
-                    <label class="" for="commune">Commune :</label>
-                </div>
-
-                <div class="content-1-child6 input-contener">
-                    <input class="content-1-child5-input" id="telephone" name="telephone" type="tel">
-                    <label for="telephone">Tel :</label>
-                </div>
-                <div class="content-1-child7">
-                    <div class=" input-contener">
-                        <input type="email" class="content-1-child7-input" id="email1" placeholder="">
-                        <label class="item16" for="email1">Couriel :</label>
-                    </div>
-                </div>
-                <div class="content-2-child1 input-contener">
-                    <input type="text" class="content-2-child1-input" name="" id="siret">
-                    <label class="siretlabel" for="siret">N°SIRET de l’établissement d’exécution du contrat :</label>
-                </div>
-                <div class="content-2-child2 input-contener">
-                    <input type="text" class="content-2-child2-input" name="" id="typeemployeur">
-                    <label for="typeemployeur">Type d’employeur :</label>
-                </div>
-            </div>
-            <div class="block-3-apprentissage">
-                <div class="content-2-child3 input-contener">
-                    <input type="text" class="content-2-child3-input" name="specifique" id="specifique">
-                    <label for="specifique">Employeur spécifique :</label>
-                </div>
-                <div class="content-2-child4 input-contener">
-                    <input type="text" class="content-2-child4-input" name="codeact" id="codeact">
-                    <label for="codeact">Code activité de l’entreprise (NAF) :</label>
-                </div>
-                <div class="content-2-child5 input-contener">
-                    <input type="text" class="content-2-child5-input" name="effectif" id="effectif">
-                    <label class="siretlabel" for="effectif">Effectif total salariés de l’entreprise :</label>
-                </div>
-            </div>
-            <div class="block-4-apprentissage">
-                <div class="content-2-child6 input-contener">
-                    <input type="text" class="content-2-child6-input" name="codeicc" id="codeicc">
-                    <label class="siretlabel" for="codeicc">Code IDCC de la convention collective applicable :</label>
-                </div>
-
-                <div class="content-3-child1 input-contener">
-                    <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="adhesion">
-                    <label for="adhesion">*Pour les employeurs du secteur public, adhésion de l’apprenti au régime
-                        spécifique d’assurance chômage</label>
-                </div>
-                <div class="content-4">
-                    <span class="content-3-child1"> L'EMPLOYEUR </span>
-                    <div class="content-3-child2 ">
-                        <div class="content-3-child2-el1 input-contener flex">
-                            <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
-                            <label for="employeur_prive">employeur privé</label>
-                        </div>
-                        <div class="content-3-child2-el1 input-contener flex">
-                            <input checked id="employeur_public" name="employeur" type="radio" value="employeur_public">
-                            <label for="employeur_public">employeur « public »&#42;</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </fieldset>
 
         <fieldset id="apprenti">
