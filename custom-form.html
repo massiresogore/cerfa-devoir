@@ -126,7 +126,7 @@
                     </div>
                     <div class="content-4">
                         <span class="content-3-child1"> L'EMPLOYEUR </span>
-                        <div class="content-3-child2">
+                        <div class="content-3-child2 ">
                             <div class="content-3-child2-el1 input-contener flex">
                                 <input id="employeur_prive" name="employeur" type="radio" value="employeur_prive">
                                 <label for="employeur_prive">employeur privé</label>
@@ -139,660 +139,716 @@
                     </div>
                 </fieldset>
 
-
-
-                <!--------------------CASE 2-------------------->
-<!--                <div class="apprenti-case2">L'APPRENTI</div>-->
-              <!--  <div class="case2">
-                    <div class="ligne">
-                        <div class="case2-ligne-child1">
+                <fieldset id="apprenti">
+                    <legend>L'APPRENTI</legend>
+                    <div class="content-5">
+                        <div class="content-5-child1 input-contener" >
+                            <input  id="nomnaissance" name="nomnaissance" type="text">
                             <label class="" for="nomnaissance">Nom de naissance de l’apprenti(e) :</label>
-                            <input class="case2-ligne-child1-input1" id="nomnaissance" name="nomnaissance" type="text">
                         </div>
-                        <div class="case2-ligne-child2">
+                        <div class="content-5-child2 input-contener">
+                            <input  id="nomusage" name="nomusage" type="text">
                             <label class="" for="nomusage">Nom d’usage :</label>
-                            <input class="case2-ligne-child2-input2" id="nomusage" name="nomusage" type="text">
                         </div>
-                        <div class="case3-ligne-child3">
+                        <div class="content-5-child3 input-contener">
+                            <input id="premierprenom" name="premierprenom" type="text">
                             <label class="" for="premierprenom">Le premier prénom de l’apprenti(e) selon l’état civil :</label>
-                            <input class="case2-ligne-child3-input3" id="premierprenom" name="premierprenom" type="text">
                         </div>
                     </div>
-                    <div class="colonne1">
-                        <div class="case2-colonne1-child1">
-                            <label class="" for="nirapprenti">NIR de l’apprenti(e) :</label>
-                            <input class="case2-colonne1-child1-input1" id="nirapprenti" name="nirapprenti" type="text">
+                    <div class="content-6">
+                        <div class="content-6-child1 input-contener">
+                            <input id="nirapprenti" name="nirapprenti" type="text">
+                            <label for="nirapprenti">NIR de l’apprenti(e) :</label>
                         </div>
-                        <div class="case2-colonne1-child2" > <b>Adresse de l’apprenti(e) :</b></div>
-                        <div class="case2-colonne1-child3">
-                            <div>
-                                <label class="item4" for="adresseapprenti">N° :</label>
-                                <input class="case2-colonne1-child3-input2" id="adresseapprenti" name="adresse" type="text">
-                            </div>
-                            <div>
-                                <label class="item6" for="voieapprenti">Voie:</label>
-                                <input class="case2-colonne1-child3-input3" id="voieapprenti" name="voie" type="text">
-                            </div>
-                        </div>
-                        <div class="case2-colonne1-child">
-                            <label  for="complementapprenti">Complément :</label>
-                            <input class="case2-colonne1-child4-input4" id="complementapprenti" name="complementapprenti" type="text">
-                        </div>
-                        <div class="case2-colonne1-child5">
-                            <label class="item10" for="codepostalapprenti">Code postal :</label>
-                            <input class="case2-colonne1-child5-input5" id="codepostalapprenti" name="codepostal" type="number">
-                        </div>
-                        <div class="case2-colonne1-child6">
-                            <label class="item12" for="communeapprenti">Commune :</label>
-                            <input class="case2-colonne1-child6-input6" id="communeapprenti" name="communeapprenti" type="text">
-                        </div>
-                        <div class="case2-colonne1-child7">
-                            <label  for="telephoneapprenti">Téléphone :</label>
-                            <input class="case2-colonne1-child7-input7" id="telephoneapprenti" name="telephoneapprenti" type="tel">
-                        </div>
-                        <div class="case2-colonne1-child8">
-                            <label class="item16" for="emailapprenti">Couriel :</label>
-                            <div class="email-input">
-                                <input type="text" class="case2-colonne1-child8-input8" id="emailapprenti" placeholder="">
-                                <span>@</span>
-                                <input type="text" class="case2-colonne1-child8-input9" id="emailapprenti2" placeholder="">
-                            </div>
-                        </div>
-                        <div class="case2-colonne1-child9"><b>Représentant légal</b> <span> (à renseigner si l’apprenti est mineur non
-                        émancipé)</span>
-                        </div>
-                        <div class="case2-colonne1-child10">
-                            <label class="" for="nomnaissanceprenom">Nom de naissance et prénom :</label>
-                            <input class=" case2-colonne1-child10-input10" id="nomnaissanceprenom" name="nom" type="text">
-                        </div>
-                        <div class="case2-colonne1-child2" > <b>Adresse du représentant légal :</b></div>
-                        <div class="case2-colonne1-child3">
-                            <div>
-                                <label class="item4" for="adresserepresentent">N° :</label>
-                                <input class="case2-colonne1-child3-input2" id="adresserepresentent" name="adresse" type="text">
-                            </div>
-                            <div>
-                                <label class="item6" for="voierepresentent">Voie:</label>
-                                <input class="case2-colonne1-child3-input3" id="voierepresentent" name="voie" type="text">
+                        <div class="content-1-child2">
+                            <span class="content-1-child2-el1">Adresse de l’apprenti(e) :</span>
+                            <div class="content-1-child2-el2">
+                                <div class="input-contener">
+                                    <input class=" content-1-child2-input-1" id="adresse-apprenti" name="adresse-apprenti" type="text">
+                                    <label class="" for="adresse-apprenti">N° :</label>
+                                </div>
+                                <div class=" input-contener">
+                                    <input class=" content-1-child2-input-2" id="voie-apprenti" name="voie-apprenti" type="text">
+                                    <label class="item6" for="voie-apprenti">Voie:</label>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="case2-colonne1-child4">
-                            <label  for="complementrepresentent">Complément :</label>
-                            <input class="case2-colonne1-child4-input4" id="complementrepresentent" name="complementrepresentent" type="text">
-                        </div>
-                        <div class="case2-colonne1-child5">
-                            <label class="item10" for="codepostalrepresentent">Code postal :</label>
-                            <input class="case2-colonne1-child5-input5" id="codepostalrepresentent" name="codepostal" type="number">
+                        <div class="content-1-child3 input-contener">
+                            <input class="content-1-child3-input" id="complement-apprenti" name="complement-apprenti" type="text">
+                            <label class="" for="complement-apprenti">Complément :</label>
                         </div>
 
-                        <div class="case2-colonne1-child6">
-                            <label class="item12" for="communerepresentent">Commune :</label>
-                            <input class="case2-colonne1-child6-input6" id="communerepresentent" name="communerepresentent" type="text">
+                        <div class="content-1-child4 input-contener">
+                            <input class="content-1-child4-input" id="codepostal-apprenti" name="codepostal" type="text">
+                            <label class="" for="codepostal-apprenti">Code postal :</label>
                         </div>
-                        <div class="case2-colonne1-child8">
-                            <label class="item16" for="emailrepresentent">Couriel :</label>
-                            <div class="email-input">
-                                <input type="text" class="case2-colonne1-child8-input8" id="emailrepresentent" placeholder="">
-                                <span>@</span>
-                                <input type="text" class="case2-colonne1-child8-input9" id="emailrepresentent2" placeholder="">
+
+                        <div class="content-1-child5 input-contener">
+                            <input class="content-1-child5-input" id="commune-apprenti" name="commune-apprenti" type="text">
+                            <label class="" for="commune-apprenti">Commune :</label>
+                        </div>
+
+                        <div class="content-1-child6 input-contener">
+                            <input class="content-1-child5-input" id="telephone-apprenti" name="telephone-apprenti" type="tel">
+                            <label for="telephone-apprenti">Tel :</label>
+                        </div>
+                        <div class="content-1-child7">
+                            <div class=" input-contener">
+                                <input type="email" class="content-1-child7-input" id="email1-apprenti" placeholder="">
+                                <label class="item16" for="email1-apprenti">Couriel :</label>
+                            </div>
+                        </div>
+                        <div  class="content-6-child2 ">Représentant légal (à renseigner si l’apprenti est mineur non
+                        émancipé)
+                        </div>
+                        <div class="content-6-child3 input-contener">
+                            <input  id="nomnaissanceprenom" name="nomnaissanceprenom" type="text">
+                            <label  for="nomnaissanceprenom">Nom de naissance et prénom :</label>
+                        </div>
+                        <div class="content-1-child2">
+                            <span class="content-1-child2-el1">Adresse du représentant légal :</span>
+                            <div class="content-1-child2-el2">
+                                <div class="input-contener">
+                                    <input class=" content-1-child2-input-1" id="adresse-representent" name="adresse-representent" type="text">
+                                    <label class="" for="adresse-representent">N° :</label>
+                                </div>
+                                <div class=" input-contener">
+                                    <input class=" content-1-child2-input-2" id="voie-representent" name="voie-representent" type="text">
+                                    <label class="item6" for="voie-representent">Voie:</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-1-child3 input-contener">
+                            <input class="content-1-child3-input" id="complement-representent" name="complement-representent" type="text">
+                            <label class="" for="complement-representent">Complément :</label>
+                        </div>
+
+                        <div class="content-1-child4 input-contener">
+                            <input class="content-1-child4-input" id="codepostal-representent" name="codepostal" type="text">
+                            <label class="" for="codepostal-representent">Code postal :</label>
+                        </div>
+                        <div class="content-1-child5 input-contener">
+                            <input class="content-1-child5-input" id="commune-representent" name="commune-representent" type="text">
+                            <label class="" for="commune-representent">Commune :</label>
+                        </div>
+
+                        <div class="content-1-child7">
+                            <div class="input-contener">
+                                <input type="email" class="content-1-child7-input" id="email1-representent" placeholder="">
+                                <label class="item16" for="email1-representent">Couriel :</label>
                             </div>
                         </div>
                     </div>
-                    <div class="colonne2">
-                        <div class="case2-colonne2-child1">
-                            <label  for="datenaissanceapprenti">Date de naissance :</label>
+                    <div class="content-7">
+                        <div class="content-7-child1 input-contener">
                             <input class="case2-colonne2-child1-input1" id="datenaissanceapprenti" name="datenaissanceapprenti" type="date">
+                            <label  for="datenaissanceapprenti">Date de naissance :</label>
                         </div>
-                        <div class="case2-colonne2-child2">
+                        <div class="content-7-child2 flex">
                             <span>Sexe :</span>
-                            <div class="flex">
-                                <input  id="masculin" class="case2-colonne2-child2-input2" name="sexe" type="radio" value="masculin">
-                                <label for="masculin">M</label>
-                            </div>
-                            <div class="flex">
-                                <input id="feminin" name="sexe" class="case2-colonne2-child2-input3" type="radio" value="feminin">
-                                <label for="feminin">F</label>
-                            </div>
+
+                           <div class="content-7-child2-el1 flex">
+                               <div class="flex">
+                                   <input  id="masculin" class="case2-colonne2-child2-input2" name="sexe" type="radio" value="masculin">
+                                   <label for="masculin">M</label>
+                               </div>
+                               <div class="flex">
+                                   <input id="feminin" name="sexe" class="case2-colonne2-child2-input3" type="radio" value="feminin">
+                                   <label for="feminin">F</label>
+                               </div>
+                           </div>
                         </div>
-                        <div class="case2-colonne2-child3">
-                            <label  for="departnaissance">Département de naissance :</label>
+
+                        <div class="content-7-child3 input-contener">
                             <input class="case2-colonne2-child3-input4" id="departnaissance" name="departnaissance" type="text">
+                            <label  for="departnaissance">Département de naissance :</label>
                         </div>
-                        <div class="case2-colonne2-child4">
+                        <div class="content-7-child4 input-contener">
+                            <input id="communenaissance" name="nom" type="text">
                             <label for="communenaissance">Commune de naissance :</label>
-                            <input class="case2-colonne2-child4-input5" id="communenaissance" name="nom" type="text">
                         </div>
-                        <div class="case2-colonne2-child5">
-                            <div>
-                                <label class="item4" for="nationalite">Nationalité :</label>
-                                <input class="case2-colonne2-child5-input6" id="nationalite" name="adresse" type="text">
-                            </div>
-                            <div>
-                                <label class="item6" for="regimesocial">Régime social :</label>
-                                <input class="case2-colonne2-child5-input6" id="regimesocial" name="voie" type="text">
-                            </div>
+
+                        <div class="content-7-child5 input-contener">
+                            <input class="case2-colonne2-child5-input6" id="nationalite" name="adresse" type="text">
+                            <label class="item4" for="nationalite">Nationalité :</label>
                         </div>
-                        <div class="case2-colonne2-child6">
-                            <span > Déclare être inscrit sur la liste des sportifs de haut niveau : </span>
-                            <div class="flex niveau-sportif">
-                                <div class="">
-                                    <input  id="oui" class="case2-colonne2-child6-input8" name="niveau1" type="radio" value="oui">
+                        <div class="content-7-child6 input-contener">
+                            <input class="case2-colonne2-child5-input6" id="regimesocial" name="voie" type="text">
+                            <label class="item6" for="regimesocial">Régime social :</label>
+                        </div>
+
+                        <div class="content-7-child7 flex">
+                            <span class="">Déclare être inscrit sur la liste des sportifs de haut niveau :</span>
+                            <div class="content-7-child2-el1 flex">
+                                <div class="flex">
+                                    <input  id="oui" class="case2-colonne2-child2-input2" name="niveau1" type="radio" value="oui">
                                     <label for="oui">OUI</label>
                                 </div>
-                                <div class="">
-                                    <input checked id="non" name="niveau1" class="case2-colonne2-child6-input9" type="radio" value="non">
+                                <div class="flex">
+                                    <input id="non" name="niveau1" class="case2-colonne2-child2-input3" type="radio" value="non">
                                     <label for="non">NON</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="case2-colonne2-child6">
-                            <span >Déclare bénéficier de la reconnaissance travailleur handicapé : </span>
-                            <div class="flex niveau-sportif2">
-                                <div class="">
-                                    <input checked  id="ouiandicap" class="case2-colonne2-child6-input8" name="niveau2" type="radio" value="ouiandicap">
-                                    <label for="ouiandicap">OUI</label>
+                        <div class="content-7-child8 flex">
+                            <span>Déclare bénéficier de la reconnaissance travailleur handicapé :</span>
+                            <div class="content-7-child2-el1 flex">
+                                <div class="flex">
+                                    <input  id="ouihandicap" class="case2-colonne2-child2-input2" name="niveau1" type="radio" value="ouihandicap">
+                                    <label for="ouihandicap">OUI</label>
                                 </div>
-                                <div class="">
-                                    <input  id="nonandicap" name="niveau2" class="case2-colonne2-child6-input9" type="radio" value="nonandicap">
-                                    <label for="nonandicap">NON</label>
+                                <div class="flex">
+                                    <input id="nonhandicap" name="niveau1" class="case2-colonne2-child2-input3" type="radio" value="nonhandicap">
+                                    <label for="nonhandicap">NON</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="case2-colonne2-child7">
-                            <label for="situation">Situation avant ce contrat :</label>
+
+
+                        <div class="content-7-child9 input-contener">
                             <input class="case2-colonne2-child7-input10" id="situation" name="nom" type="text">
+                            <label for="situation">Situation avant ce contrat :</label>
                         </div>
-                        <div class="case2-colonne2-child8">
+                        <div class="content-7-child10 input-contener">
+                            <input class="" id="derdiplome" name="nom" type="text">
                             <label for="derdiplome">Dernier diplôme ou titre préparé :</label>
-                            <input class="case2-colonne2-child8-input11" id="derdiplome" name="nom" type="text">
                         </div>
-                        <div class="case2-colonne2-child9">
-                            <label for="derniereclasse">Dernière classe / année suivie :</label>
+                        <div class="content-7-child11 input-contener">
                             <input class="case2-colonne2-child9-input12" id="derniereclasse" name="nom" type="text">
+                            <label for="derniereclasse">Dernière classe / année suivie :</label>
                         </div>
-                        <div class="case2-colonne2-child10">
-                            <label for="intituledernierdiplome">Intitulé précis du dernier diplôme ou titre préparé :</label>
+                        <div class="content-7-child12 input-contener">
                             <input class="case2-colonne2-child10-input13" id="intituledernierdiplome" name="nom" type="text">
+                            <label for="intituledernierdiplome">Intitulé précis du dernier diplôme ou titre préparé :</label>
                         </div>
-                        <div class="case2-colonne2-child11">
-                            <label for="titreeleve">Diplôme ou titre le plus élevé obtenu :</label>
+                        <div class="content-7-child13 input-contener">
                             <input class="case2-colonne2-child11-input14" id="titreeleve" name="nom" type="text">
+                            <label for="titreeleve">Diplôme ou titre le plus élevé obtenu :</label>
                         </div>
 
-                        <div class="case2-colonne2-child12">
-                            <span> Déclare avoir un projet de création ou de reprise d’entreprise : </span>
-                            <div class="flex niveau-sportif3">
-                                <div >
-                                    <input checked id="aentreprise" class="case2-colonne2-child12-input15" name="niveau" type="radio" value="oui">
+                        <div class="content-7-child8 flex">
+                            <span>Déclare avoir un projet de création ou de reprise d’entreprise :</span>
+                            <div class="content-7-child2-el1 flex">
+                                <div class="flex">
+                                    <input  id="aentreprise" class="case2-colonne2-child2-input2" name="niveau1" type="radio" value="ouihandicap">
                                     <label for="aentreprise">OUI</label>
                                 </div>
-                                <div class="">
-                                    <input id="aentreprise2" name="niveau" class="case2-colonne2-child12-input16" type="radio" value="non">
-                                    <label for="aentreprise2">NON</label>
+                                <div class="flex">
+                                    <input id="apasentreprise" name="niveau1" class="case2-colonne2-child2-input3" type="radio" value="apasentreprise">
+                                    <label for="apasentreprise">NON</label>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                </div>-->
+                </fieldset>
 
-                <!--------------------CASE 3-------------------->
-<!--                <div class="maitre-case3">LE MAÎTRE D’APPRENTISSAGE</div>-->
-               <!-- <div class="case3">
-                    <div class="colonne1">
-                       <div class="case3-colonne1-child1">
-                          <span> Maître d’apprentissage n°1</span>
-                           <div class="">
-                               <label for="nonnaissancemaitre">Nom de naissance :</label>
-                               <input class="case3-colonne1-child1-input1" id="nonnaissancemaitre" name="nom" type="text">
-                           </div>
-                       </div>
-                        <div class="case3-colonne1-child2">
-                            <label for="prenommaitre">Prénom :</label>
-                            <input class="case3-colonne1-child2-input2" id="prenommaitre" name="nom" type="text">
-                        </div>
-                        <div class="case3-colonne1-child3">
-                            <label for="datenaissancemaitre">Date de naissance :</label>
-                            <input class="case3-colonne1-child3-input3" id="datenaissancemaitre" name="nom" type="date">
-                        </div>
-                        <div class="case3-colonne1-child4">
-                            <label for="nirmaitre">NIR :</label>
-                            <input class="case3-colonne1-child4-input4" id="nirmaitre" name="nom" type="text">
-                        </div>
-                        <div class="case3-colonne1-child5">
-                            <div class="email-input">
-                                <label class="" for="email1maitre">Couriel :</label>
-                                <input type="text" class="case3-colonne1-child5-input5" id="email1maitre" placeholder="">
-                                <span>@</span>
-                                <input type="text" class="case3-colonne1-child5-input6" id="email2maitre" placeholder="">
+                <fieldset id="maitre-apprentissage">
+                    <legend>LE MAÎTRE D’APPRENTISSAGE</legend>
+                    <div class="content-8">
+                        <div class="input-contener">
+                            <div class="">
+                                <input class="case3-colonne1-child1-input1" id="nonnaissancemaitre" name="nom" type="text">
+                                <label for="nonnaissancemaitre">Nom de naissance :</label>
                             </div>
                         </div>
-                        <div class="case3-colonne1-child6">
-                            <label for="emploiocupe">Emploi occupé :</label>
+                        <div class="input-contener">
+                            <input class="case3-colonne1-child2-input2" id="prenommaitre" name="nom" type="text">
+                            <label for="prenommaitre">Prénom :</label>
+                        </div>
+                        <div class="input-contener">
+                            <input class="case3-colonne1-child3-input3" id="datenaissancemaitre" name="nom" type="date">
+                            <label for="datenaissancemaitre">Date de naissance :</label>
+                        </div>
+                        <div class="input-contener">
+                            <input class="case3-colonne1-child4-input4" id="nirmaitre" name="nom" type="text">
+                            <label for="nirmaitre">NIR :</label>
+                        </div>
+                        <div class="input-contener">
+                            <div class="email-input">
+                                <input type="text" class="case3-colonne1-child5-input5" id="email1maitre" placeholder="">
+                                <label class="" for="email1maitre">Couriel :</label>
+                            </div>
+                        </div>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input7" id="emploiocupe" name="emploiocupe" type="text">
+                            <label for="emploiocupe">Emploi occupé :</label>
                         </div>
-                        <div class="case3-colonne1-child7">
-                            <label for="diplomemaitreeleve">Diplôme ou titre le plus élevé obtenu :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input7" id="diplomemaitreeleve" name="emploiocupe" type="text">
+                            <label for="diplomemaitreeleve">Diplôme ou titre le plus élevé obtenu :</label>
                         </div>
-                        <div class="case3-colonne1-child8">
-                            <label for="niveaumaitre1">Niveau de diplôme ou titre le plus élevé obtenu :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input8" id="niveaumaitre1" name="emploiocupe" type="text">
+                            <label for="niveaumaitre1">Niveau de diplôme ou titre le plus élevé obtenu :</label>
                         </div>
-                    </div>
-                    <div class="colonne2">
-                        <div class="case3-colonne1-child1">
+
+                        <div class="input-contener">
                             <span> Maître d’apprentissage n°2</span>
                             <div class="">
                                 <label for="nonnaissancemaitre2">Nom de naissance :</label>
                                 <input class="case3-colonne1-child1-input1" id="nonnaissancemaitre2" name="nom" type="text">
                             </div>
                         </div>
-                        <div class="case3-colonne1-child2">
-                            <label for="prenommaitre2">Prénom :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child2-input2" id="prenommaitre2" name="nom" type="text">
+                            <label for="prenommaitre2">Prénom :</label>
                         </div>
-                        <div class="case3-colonne1-child3">
-                            <label for="datenaissancemaitre2">Date de naissance :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child3-input3" id="datenaissancemaitre2" name="nom" type="date">
+                            <label for="datenaissancemaitre2">Date de naissance :</label>
                         </div>
-                        <div class="case3-colonne1-child4">
-                            <label for="nirmaitre2">NIR :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child4-input4" id="nirmaitre2" name="nom" type="text">
+                            <label for="nirmaitre2">NIR :</label>
                         </div>
-                        <div class="case3-colonne1-child5">
+                        <div class="input-contener">
                             <div class="email-input">
-                                <label class="" for="email1maitre2">Couriel :</label>
                                 <input type="text" class="case3-colonne1-child5-input5" id="email1maitre2" placeholder="">
-                                <span>@</span>
-                                <input type="text" class="case3-colonne1-child5-input6" id="email2maitre2" placeholder="">
+                                <label class="" for="email1maitre2">Couriel :</label>
                             </div>
                         </div>
-                        <div class="case3-colonne1-child6">
-                            <label for="emploiocupemaitre2">Emploi occupé :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input7" id="emploiocupemaitre2" name="emploiocupe" type="text">
+                            <label for="emploiocupemaitre2">Emploi occupé :</label>
                         </div>
-                        <div class="case3-colonne1-child7">
-                            <label for="diplomemaitreelevemaitre2">Diplôme ou titre le plus élevé obtenu :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input7" id="diplomemaitreelevemaitre2" name="emploiocupe" type="text">
+                            <label for="diplomemaitreelevemaitre2">Diplôme ou titre le plus élevé obtenu :</label>
                         </div>
-                        <div class="case3-colonne1-child8">
-                            <label for="niveaumaitre2">Niveau de diplôme ou titre le plus élevé obtenu :</label>
+                        <div class="input-contener">
                             <input class="case3-colonne1-child6-input8" id="niveaumaitre2" name="emploiocupe" type="text">
+                            <label for="niveaumaitre2">Niveau de diplôme ou titre le plus élevé obtenu :</label>
                         </div>
                     </div>
 
-                    <div class="ligne" id="ligne">
-                        <input type="checkbox" name="atteste" id="atteste">
-                        <label for="atteste" class="attest">L’employeur atteste sur l’honneur que le maître d’apprentissage répond à l’ensemble des critères d’éligibilité à cette fonction.</label>
+                    <div class="content-9">
+                            <div class="content-3-child1 input-contener">
+                                <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="attest">
+                                <label for="attest">L’employeur atteste sur l’honneur que le maître d’apprentissage répond à l’ensemble des critères d’éligibilité à cette fonction.</label>
+                            </div>
                     </div>
-                </div>-->
+                </fieldset>
 
-                <!--------------------CASE 4-------------------->
-<!--                <div class="contrat-case4">CONTRAT</div>-->
-                <!--<div class="case4">
-                       <div class="case4-child1">
-                           <div class="flex">
-                               <label  for="tyecontrat">Type de contrat ou d’avenant :</label>
-                               <input class="case4-child1-input1" id="tyecontrat" name="tyecontrat" type="text">
-                           </div>
-                           <div class="flex">
-                               <label  for="typederogation">Type de dérogation :</label>
-                               <input class="case4-child2-input2" id="typederogation" name="typederogation" type="text">
-                               <span class="rederogation"> à renseigner si une dérogation
+                <fieldset id="contat">
+                    <legend>CONTRAT</legend>
+                    <div class="content10">
+                        <div class="">
+                            <div class="input-contener">
+                                <label  for="tyecontrat">Type de contrat ou d’avenant :</label>
+                                <input  id="tyecontrat" name="tyecontrat" type="text">
+                            </div>
+
+                           <div class="">
+                                <span class="rederogation"> à renseigner si une dérogation
                             existe pour ce contrat</span>
+                               <div class="input-contener">
+                                   <input class="case4-child2-input2" id="typederogation" name="typederogation" type="text">
+                                   <label  for="typederogation">Type de dérogation :</label>
+                               </div>
                            </div>
-                       </div>
-                    <div class="case4-child2">
-                        <label  for="numcontratprec">Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :</label>
-                        <input class="case4-child2-input3" id="numcontratprec" name="numcontratprec" type="text">
+                        </div>
+                        <div class="input-contener">
+                            <input class="case4-child2-input3" id="numcontratprec" name="numcontratprec" type="text">
+                            <label  for="numcontratprec">Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :</label>
+                        </div>
                     </div>
+                        <div class="content-11">
+                            <div class="input-contener">
+                                <input class="case4-child3-input4" id="dateconclusion" name="dateconclusion" type="date">
+                                <label  for="dateconclusion">Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span></label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case4-child3-input5" id="datedebutcontrat" name="dateconclusion" type="date">
+                                <label  for="datedebutcontrat">Date de début d’exécution du  <span>contrat :</span></label>
+                            </div>
+                            <div class="input-contener">
+                                <label  for="datedebuform">Date de début de formation pratique <span> chez l’employeur :</span></label>
+                                <input class="case4-child3-input6" id="datedebuform" name="datedebuform" type="date">
+                            </div>
+                        </div>
+                        <div class="content-12">
+                            <div class="input-contener">
+                                <label  for="dateeffet">Si avenant, date d’effet :</label>
+                                <input class="case4-child4-input7" id="dateeffet" name="dateeffet" type="date">
+                            </div>
+                            <div class="">
+                                <div class="input-contener">
+                                    <input class="case4-child4-input8" id="dureeheur" name="dureeheb" type="text">
+                                    <label  for="dureeheur">Durée hebdomadaire du travail :</label>
+                                </div>
+                            </div>
 
-                    <div class="case4-child3">
-                        <div class="ch1">
-                            <label  for="dateconclusion">Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span></label>
-                            <input class="case4-child3-input4" id="dateconclusion" name="dateconclusion" type="date">
                         </div>
-                        <div class="ch2">
-                            <label  for="datedebutcontrat">Date de début d’exécution du  <span>contrat :</span></label>
-                            <input class="case4-child3-input5" id="datedebutcontrat" name="dateconclusion" type="date">
+                        <div class="content-13">
+                                <span> d’apprentissage :</span>
+                            <div class="input-contener">
+                                <input class="case4-child5-input9" id="datefincontratp" name="datefincontratp" type="date">
+                                <label  for="datefincontratp">Date de fin du contrat ou de la période</label>
+                            </div>
                         </div>
-                        <div class="ch3">
-                            <label  for="datedebuform">Date de début de formation pratique <span> chez l’employeur :</span></label>
-                            <input class="case4-child3-input6" id="datedebuform" name="datedebuform" type="date">
+                    <div class="content-7-child8 flex">
+                        <span>Travail sur machines dangereuses ou exposition à des risques particuliers : </span>
+                        <div class="content-7-child2-el1 flex">
+                            <div class="flex">
+                                <input  id="ouidan" class="case2-colonne2-child2-input2" name="niveau1" type="radio" value="ouihandicap">
+                                <label for="ouidan">OUI</label>
+                            </div>
+                            <div class="flex">
+                                <input id="nondan" name="niveau1" class="case2-colonne2-child2-input3" type="radio" value="nondan">
+                                <label for="nondan">NON</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="case4-child4">
+                    <div class="content-13">
+                        <div>Rémunération</div>
+                        <div>* Indiquer SMIC ou SMC (salaire minimum conventionnel)</div>
+                    </div>
+                    <div class="remuneration">
+                       <fieldset>
+                           <legend>1<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</legend>
+                           <div class="fle annee1">
+                               <div class="input-contener">
+                                   <input class="rem-input1" id="annee1de" name="annee1de" type="text">
+                                   <label  for="annee1de">1<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input2" id="annee1au" name="annee1au" type="text">
+                                   <label  for="annee1au">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input3" id="annee1au:" name="annee1au:" type="text">
+                                   <label  for="annee1au:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input4" id="annee1du" name="annee1du" type="text">
+                                   <label  for="annee1du">% du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input5" id="annee1etdu" name="annee1etdu" type="text">
+                                   <label  for="annee1etdu">* ; du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input6" id="annee1etduau2" name="annee1etduau2" type="text">
+                                   <label  for="annee1etduau2">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input7" id="annee1etduau2:" name="annee1etduau2:" type="text">
+                                   <label  for="annee1etduau2:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input8" id="annee1du2" name="annee1du2" type="text">
+                                   <label  for="annee1du2">% du *</label>
+                               </div>
+                           </div>
+                       </fieldset>
+                        <fieldset>
+                           <legend>2<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</legend>
+                           <div class="fle annee2">
+                               <div class="input-contener">
+                                   <input class="rem-input2" id="annee2de" name="annee2de" type="text">
+                                   <label  for="annee2de">2<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input2" id="annee2au" name="annee2au" type="text">
+                                   <label  for="annee2au">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input3" id="annee2au:" name="annee2au:" type="text">
+                                   <label  for="annee2au:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input4" id="annee2du" name="annee2du" type="text">
+                                   <label  for="annee2du">% du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input5" id="annee2etdu" name="annee2etdu" type="text">
+                                   <label  for="annee2etdu">* ; du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input6" id="annee2etduau2" name="annee2etduau2" type="text">
+                                   <label  for="annee2etduau2">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input7" id="annee2etduau2:" name="annee2etduau2:" type="text">
+                                   <label  for="annee2etduau2:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input8" id="annee2du2" name="annee2du2" type="text">
+                                   <label  for="annee2du2">% du *</label>
+                               </div>
+                           </div>
+                       </fieldset>
+                        <fieldset>
+                           <legend>3<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</legend>
+                           <div class="fle annee3">
+                               <div class="input-contener">
+                                   <input class="rem-input3" id="annee3de" name="annee3de" type="text">
+                                   <label  for="annee3de">3<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input3" id="annee3au" name="annee3au" type="text">
+                                   <label  for="annee3au">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input3" id="annee3au:" name="annee3au:" type="text">
+                                   <label  for="annee3au:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input4" id="annee3du" name="annee3du" type="text">
+                                   <label  for="annee3du">% du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input5" id="annee3etdu" name="annee3etdu" type="text">
+                                   <label  for="annee3etdu">* ; du</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input6" id="annee3etduau2" name="annee3etduau2" type="text">
+                                   <label  for="annee3etduau2">au</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input7" id="annee3etduau2:" name="annee3etduau2:" type="text">
+                                   <label  for="annee3etduau2:">:</label>
+                               </div>
+                               <div class="input-contener">
+                                   <input class="rem-input8" id="annee3du2" name="annee3du2" type="text">
+                                   <label  for="annee3du2">% du *</label>
+                               </div>
+                           </div>
+                       </fieldset>
+                        <div class=" case4-child8">
+                            <div class="input-contener">
+                                <input class="case4-child8-input1" id="salairebrut" name="salairebrut" type="text">
+                                <label  for="salairebrut">Salaire brut mensuel à l’embauche :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case4-child8-input3" id="caisseretraitecomp" name="caisseretraitecomp" type="text">
+                                <label  for="caisseretraitecomp">Caisse de retraite complémentaire :</label>
+                            </div>
+                        </div>
+                        <div class="content-14">
+                            <div class="">
+                               <div class="input-contener">
+                                   <input  id="avantagenature" name="avantagenature" type="text">
+                                   <label  for="avantagenature">Avantages en nature, le cas échéant : Nourriture :</label>
+                               </div>
+                                <span>€ / repas</span>
+                            </div>
+                            <div class="">
+                                <div class="input-contener">
+                                    <input class="case4-child10-input3" id="logement" name="avantagenature" type="text">
+                                    <label  for="logement">Logement :</label>
+                                </div>
+                                <span>€ / repas</span>
+                            </div>
+
+                            <div class="content-9">
+                                <div class="content-3-child1 input-contener">
+                                    <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="autre">
+                                    <label for="autre">Autre :</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+                <fieldset id="laformation">
+                    <legend>FORMATION</legend>
+                    <div class="content-15">
                         <div class="">
-                            <label  for="dateeffet">Si avenant, date d’effet :</label>
-                            <input class="case4-child4-input7" id="dateeffet" name="dateeffet" type="date">
-                        </div>
-                        <div class="">
-                            <label  for="dureeheur">Durée hebdomadaire du travail :</label>
-                          <div>
-                              <input class="case4-child4-input8" id="dureeheur" name="dureeheb" type="text">
-                              <span> heures</span>
-                              <input class="case4-child4-input8" id="dureemin" name="dureeheb" type="text">
-                              <span>minutes</span>
-                          </div>
-                        </div>
-                        <div></div>
-                    </div>
-                    <div class="case4-child5">
-                        <label  for="datefincontratp">Date de fin du contrat ou de la période</label>
-                        <div class="flex">
-                            <span> d’apprentissage :</span><input class="case4-child5-input9" id="datefincontratp" name="datefincontratp" type="date">
-                        </div>
-                    </div>
-                    <div class="case4-child6 flex">
-                        <span> Travail sur machines dangereuses ou exposition à des risques particuliers : </span>
-                        <div class="radio-center-flex">
-                            <input checked id="ouidan" name="dangertravail" type="radio" value="oui">
-                            <label for="ouidan">OUI</label>
-                        </div>
-                        <div class="radio-center-flex">
-                            <input id="nondan" name="dangertravail" type="radio" value="non">
-                            <label for="nondan">NON</label>
-                        </div>
-                    </div>
-                    <div id="remuneration">
-                        <div class="remu">
-                            <div>Rémunération</div>
-                            <div>* Indiquer SMIC ou SMC (salaire minimum conventionnel)</div>
-                        </div>
-                        <div class="remu-ligne">
-                            <div class="fle annee1">
-                                <label  for="annee1de">1<sup>er&nbsp;&nbsp;&nbsp;&nbsp;</sup> année, du</label>
-                                <input class="rem-input1" id="annee1de" name="annee1de" type="text">
-                                <label  for="annee1au">au</label>
-                                <input class="rem-input2" id="annee1au" name="annee1au" type="text">
-                                <label  for="annee1au:">:</label>
-                                <input class="rem-input3" id="annee1au:" name="annee1au:" type="text">
-                                <label  for="annee1du">% du</label>
-                                <input class="rem-input4" id="annee1du" name="annee1du" type="text">
-                                <label  for="annee1etdu">* ; du</label>
-                                <input class="rem-input5" id="annee1etdu" name="annee1etdu" type="text">
-                                <label  for="annee1etduau2">au</label>
-                                <input class="rem-input6" id="annee1etduau2" name="annee1etduau2" type="text">
-                                <label  for="annee1etduau2:">:</label>
-                                <input class="rem-input7" id="annee1etduau2:" name="annee1etduau2:" type="text">
-                                <label  for="annee1du2">% du</label>
-                                <input class="rem-input8" id="annee1du2" name="annee1du2" type="text">*
+                            <div class="content-7-child8 flex">
+                                <span>CFA d’entreprise : </span>
+                                <div class="content-7-child2-el1 flex">
+                                    <div class="flex">
+                                        <input  id="ouien" class="case2-colonne2-child2-input2" name="entrepreisecfa" type="radio" value="oui">
+                                        <label for="ouien">OUI</label>
+                                    </div>
+                                    <div class="flex">
+                                        <input id="nonen" name="entrepreisecfa" class="case2-colonne2-child2-input3" type="radio" value="nonen">
+                                        <label for="nonen">NON</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="fle annee2">
-                                <label  for="annee2de">2<sup>ème</sup>  année, du</label>
-                                <input class="rem-input1" id="annee2de" name="annee2de" type="text">
-                                <label  for="annee2au">au</label>
-                                <input class="rem-input2" id="annee2au" name="annee2au" type="text">
-                                <label  for="annee2au:">:</label>
-                                <input class="rem-input3" id="annee2au:" name="annee2au:" type="text">
-                                <label  for="annee2du">% du</label>
-                                <input class="rem-input4" id="annee2du" name="annee2du" type="text">
-                                <label  for="annee2etdu">* ; du</label>
-                                <input class="rem-input5" id="annee2etdu" name="annee2etdu" type="text">
-                                <label  for="annee2etduau2">au</label>
-                                <input class="rem-input6" id="annee2etduau2" name="annee2etduau2" type="text">
-                                <label  for="annee2etduau2:">:</label>
-                                <input class="rem-input7" id="annee2etduau2:" name="annee2etduau2:" type="text">
-                                <label  for="annee2du2">% du</label>
-                                <input class="rem-input8" id="annee2du2" name="annee2du2" type="text">*
+                            <div class="input-contener">
+                                <input class="" id="denominationcfa" name="denominationcfa" type="text">
+                                <label class="" for="denominationcfa">Dénomination du CFA responsable :</label>
                             </div>
-                            <div class="fle annee4">
-                                <label  for="annee4de">4<sup>ème</sup>  année, du</label>
-                                <input class="rem-input1" id="annee4de" name="annee4de" type="text">
-                                <label  for="annee4au">au</label>
-                                <input class="rem-input2" id="annee4au" name="annee4au" type="text">
-                                <label  for="annee4au:">:</label>
-                                <input class="rem-input3" id="annee4au:" name="annee4au:" type="text">
-                                <label  for="annee4du">% du</label>
-                                <input class="rem-input4" id="annee4du" name="annee4du" type="text">
-                                <label  for="annee4etdu">* ; du</label>
-                                <input class="rem-input5" id="annee4etdu" name="annee4etdu" type="text">
-                                <label  for="annee4etduau2">au</label>
-                                <input class="rem-input6" id="annee4etduau2" name="annee4etduau2" type="text">
-                                <label  for="annee4etduau2:">:</label>
-                                <input class="rem-input7" id="annee4etduau2:" name="annee4etduau2:" type="text">
-                                <label  for="annee4du2">% du</label>
-                                <input class="rem-input8" id="annee4du2" name="annee4du2" type="text">*
+                            <div class="input-contener">
+                                <input class="case5-col1-children3-input" id="uai" name="uai" type="text">
+                                <label class="" for="uai">N° UAI du CFA :</label>
                             </div>
-                            <div class="fle annee3">
-                                <label  for="annee3de">3<sup>ème</sup>  année, du</label>
-                                <input class="rem-input1" id="annee3de" name="annee3de" type="text">
-                                <label  for="annee3au">au</label>
-                                <input class="rem-input2" id="annee3au" name="annee3au" type="text">
-                                <label  for="annee3au:">:</label>
-                                <input class="rem-input3" id="annee3au:" name="annee3au:" type="text">
-                                <label  for="annee3du">% du</label>
-                                <input class="rem-input4" id="annee3du" name="annee3du" type="text">
-                                <label  for="annee3etdu">* ; du</label>
-                                <input class="rem-input5" id="annee3etdu" name="annee3etdu" type="text">
-                                <label  for="annee3etduau2">au</label>
-                                <input class="rem-input6" id="annee3etduau2" name="annee3etduau2" type="text">
-                                <label  for="annee3etduau2:">:</label>
-                                <input class="rem-input7" id="annee3etduau2:" name="annee3etduau2:" type="text">
-                                <label  for="annee3du2">% du</label>
-                                <input class="rem-input8" id="annee3du2" name="annee3du2" type="text">*
+                            <div class="input-contener">
+                                <input class="case5-col1-children4-input" id="siretcfa" name="uai" type="text">
+                                <label class="" for="siretcfa">N° SIRET CFA :</label>
                             </div>
-                        </div>
-                    </div>
-                    <div class="flex case4-child8">
-                        <div class="case4-child8-el1">
-                            <label  for="salairebrut">Salaire brut mensuel à l’embauche :</label>
-                            <input class="case4-child8-input1" id="salairebrut" name="salairebrut" type="text">
-                            <span>.</span>
-                            <input class="case4-child8-input2" id="salairebrutcent" name="salairebrutcent" type="text">€
-                        </div>
-                        <div class="case4-child8-el2">
-                            <label  for="caisseretraitecomp">Caisse de retraite complémentaire :</label>
-                            <input class="case4-child8-input3" id="caisseretraitecomp" name="caisseretraitecomp" type="text">
-                        </div>
-                    </div>
-                    <div class="flex case4-child9">
-                        <div class="flex case4-child9-el1">
-                            <label  for="avantagenature">Avantages en nature, le cas échéant : Nourriture :</label>
-                            <input class="case4-child9-input1" id="avantagenature" name="avantagenature" type="text">
-                            <span>,</span>
-                            <input class="case4-child9-input2" id="avantagenaturecent" name="avantagenaturecent" type="text">
-                            <span>€ / repas</span>
-                        </div>
-                        <div class="flex case4-child10-el2">
-                            <label  for="logement">Logement :</label>
-                            <input class="case4-child10-input3" id="logement" name="avantagenature" type="text">
-                            <span>,</span>
-                            <input class="case4-child10-input4" id="logementcent" name="logementcent" type="text">
-                            <span>€ / repas</span>
-                        </div>
-                        <div class="ligne flex">
-                            <label for="autre">Autre :</label>
-                            <input type="checkbox" name="autre" id="autre">
-                        </div>
-                    </div>
-                </div>-->
 
-                <!--------------------CASE 5-------------------->
-<!--                <div class="formation-case5 bold">LA FORMATION</div>-->
-               <!-- <div class="case5">
-                    <div class="case5-col1">
-                        <div class="flex case5-col1-children1">
-                            <span> CFA d’entreprise : </span>
-                            <div class="flex case5-child">
-                                <input checked id="ouien" name="entreprise" type="radio" value="oui">
-                                <label for="ouien">oui</label>
+                            <div class="content-1-child2">
+                                <span class="content-1-child2-el1">Adresse du CFA responsable :</span>
+                                <div class="content-1-child2-el2">
+                                    <div class="input-contener">
+                                        <input class=" content-1-child2-input-1" id="adresse-responsable" name="adresse-responsable" type="text">
+                                        <label class="" for="adresse-responsable">N° :</label>
+                                    </div>
+                                    <div class=" input-contener">
+                                        <input class=" content-1-child2-input-2" id="voie-responsable" name="voie-responsable" type="text">
+                                        <label class="item6" for="voie-responsable">Voie:</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="flex case5-child">
-                                <input id="nonen" name="entreprise" type="radio" value="non">
-                                <label for="nonen">non</label>
+
+                            <div class="content-1-child3 input-contener">
+                                <input class="content-1-child3-input" id="complement-responsable" name="complement-responsable" type="text">
+                                <label class="" for="complement-responsable">Complément :</label>
                             </div>
+
+                            <div class="content-1-child4 input-contener">
+                                <input class="content-1-child4-input" id="codepostal-responsable" name="codepostal" type="text">
+                                <label class="" for="codepostal-responsable">Code postal :</label>
+                            </div>
+                            <div class="content-1-child5 input-contener">
+                                <input class="content-1-child5-input" id="commune-responsable" name="commune-responsable" type="text">
+                                <label class="" for="commune-responsable">Commune :</label>
+                            </div>
+
+
+                            <div class="content-9">
+                                <div class="content-3-child1 input-contener">
+                                    <input checked type="checkbox" class="content-3-child1-input" name="lieeuforprincipal" id="lieeuforprincipal">
+                                    <label for="lieeuforprincipal">ASi le CFA responsable est le lieu de formation
+                                        principal cochez la case ci-contre</label>
+                                </div>
+                            </div>
+                            <div class="case5-col1-children11">Visa du CFA (cachet et signature du directeur) :</div>
                         </div>
-                        <div class="case5-col1-children2">
-                            <label class="" for="denominationcfa">Dénomination du CFA responsable :</label>
-                            <input class="case5-col1-children2-input" id="denominationcfa" name="denominationcfa" type="text">
-                        </div>
-                        <div class="case5-col1-children3">
-                            <label class="" for="uai">N° UAI du CFA :</label>
-                            <input class="case5-col1-children3-input" id="uai" name="uai" type="text">
-                        </div>
-                        <div class="case5-col1-children4">
-                            <label class="" for="siretcfa">N° SIRET CFA :</label>
-                            <input class="case5-col1-children4-input" id="siretcfa" name="uai" type="text">
+                        <div class="case5-col2">
+                            <div class="input-contener">
+                                <input class="case5-col2-children1-input" id="diplometitrevise" name="diplometitrevise" type="text">
+                                <label class="" for="diplometitrevise">Diplôme ou titre visé par l’apprenti :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children2-input" id="intitulepreci" name="intitulepreci" type="text">
+                                <label class="" for="intitulepreci">Intitulé précis :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children3-input" id="codediplome" name="codediplome" type="text">
+                                <label class="" for="codediplome">Code du diplôme :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children4-input" id="coderncp" name="coderncp" type="text">
+                                <label class="" for="coderncp">Code RNCP :</label>
+                            </div>
+                            <div class="case5-col2-children5 bold">Organisation de la formation en CFA :</div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children6-input" id="datedebutformation" name="datedebutformation" type="date">
+                                <label class="" for="datedebutformation">Date de début de formation en CFA :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children7-input" id="datefinexamen" name="datefinexamen" type="date">
+                                <label class="" for="datefinexamen">Date prévue de fin des épreuves ou examens :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children7-input" id="dureeforma" name="dureeforma" type="time">
+                                <label class="" for="dureeforma">Durée de la formation :</label>
+                            </div>
+                            <div class="case5-col2-children8 bold">
+                                Lieu principal de réalisation de la formation si différent du CFA responsable :
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children9-input" id="denolieuform" name="denolieuform" type="text">
+                                <label class="" for="denolieuform">Dénomination du lieu de formation principal :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children10-input" id="numerouai" name="numerouai" type="text">
+                                <label class="" for="numerouai">N° UAI :</label>
+                            </div>
+                            <div class="input-contener">
+                                <input class="case5-col2-children11-input" id="numerosire" name="numerosire" type="text">
+                                <label class="" for="numerosire">N° SIRET :</label>
+                            </div>
+
+                            <div class="case5-col2-children12 bold" >Adresse du lieu de formation principal :</div>
+                            <div class="content-1-child2-el2">
+                                <div class="input-contener">
+                                    <input class=" content-1-child2-input-1" id="adresse-lieu" name="adresse-lieu" type="text">
+                                    <label class="" for="adresse-lieu">N° :</label>
+                                </div>
+                                <div class=" input-contener">
+                                    <input class=" content-1-child2-input-2" id="voie-lieu" name="voie-lieu" type="text">
+                                    <label class="item6" for="voie-lieu">Voie:</label>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="case5-col1-children5 bold" >Adresse du CFA responsable :</div>
-                        <div class="case5-col1-children6 flex">
-                            <div>
-                                <label class="" for="adresseresponsable">N° :</label>
-                                <input class="case5-col1-children6-input1" id="adresseresponsable" name="adresseresponsable" type="text">
-                            </div>
-                            <div>
-                                <label class="" for="voieresponsable">Voie:</label>
-                                <input class="case5-col1-children6-input2" id="voieresponsable" name="voieresponsable" type="text">
-                            </div>
-                        </div>
-                        <div class="case5-col1-children7">
-                            <label class="" for="complementresponsable">Complément :</label>
-                            <input class=" case5-col1-children7-input" id="complementresponsable" name="complementresponsable" type="text">
-                        </div>
-                        <div class="case5-col1-children8">
-                            <label class="item10" for="codepostalresponsable">Code postal :</label>
-                            <input class="case5-col1-children8-input" id="codepostalresponsable" name="codepostalresponsable" type="number">
-                        </div>
-                        <div class="case5-col1-children9">
-                            <label class="item12" for="communeresponsable">Commune :</label>
-                            <input class="case5-col1-children9-input" id="communeresponsable" name="communeresponsable" type="text">
+                        <div class="content-1-child3 input-contener">
+                            <input class="content-1-child3-input" id="complement-lieu" name="complement-lieu" type="text">
+                            <label class="" for="complement-lieu">Complément :</label>
                         </div>
 
-                        <div class="case5-col1-children10 flex">
-                            <input type="checkbox" name="lieeuforprincipal" id="lieeuforprincipal">
-                            <label for="lieeuforprincipal">Si le CFA responsable est le lieu de formation
-                                principal cochez la case ci-contre</label>
+                        <div class="content-1-child4 input-contener">
+                            <input class="content-1-child4-input" id="codepostal-lieu" name="codepostal" type="text">
+                            <label class="" for="codepostal-lieu">Code postal :</label>
                         </div>
-                        <div class="case5-col1-children11">Visa du CFA (cachet et signature du directeur) :</div>
-                    </div>
-                    <div class="case5-col2">
-                        <div class="case5-col2-children1">
-                            <label class="" for="diplometitrevise">Diplôme ou titre visé par l’apprenti :</label>
-                            <input class="case5-col2-children1-input" id="diplometitrevise" name="diplometitrevise" type="text">
-                        </div>
-                        <div class="case5-col2-children2">
-                            <label class="" for="intitulepreci">Intitulé précis :</label>
-                            <input class="case5-col2-children2-input" id="intitulepreci" name="intitulepreci" type="text">
-                        </div>
-                        <div class="case5-col2-children3">
-                            <label class="" for="codediplome">Code du diplôme :</label>
-                            <input class="case5-col2-children3-input" id="codediplome" name="codediplome" type="text">
-                        </div>
-                        <div class="case5-col2-children4">
-                            <label class="" for="coderncp">Code RNCP :</label>
-                            <input class="case5-col2-children4-input" id="coderncp" name="coderncp" type="text">
-                        </div>
-                        <div class="case5-col2-children5 bold">Organisation de la formation en CFA :</div>
-                        <div class="case5-col2-children6">
-                            <label class="" for="datedebutformation">Date de début de formation en CFA :</label>
-                            <input class="case5-col2-children6-input" id="datedebutformation" name="datedebutformation" type="date">
-                        </div>
-                        <div class="case5-col2-children7">
-                            <label class="" for="datefinexamen">Date prévue de fin des épreuves ou examens :</label>
-                            <input class="case5-col2-children7-input" id="datefinexamen" name="datefinexamen" type="date">
-                        </div>
-                        <div class="case5-col2-children7">
-                            <label class="" for="dureeforma">Durée de la formation :</label>
-                            <input class="case5-col2-children7-input" id="dureeforma" name="dureeforma" type="time">
-                        </div>
-                        <div class="case5-col2-children8 bold">
-                            Lieu principal de réalisation de la formation si différent du CFA responsable :
-                        </div>
-                        <div class="case5-col2-children9">
-                            <label class="" for="denolieuform">Dénomination du lieu de formation principal :</label>
-                            <input class="case5-col2-children9-input" id="denolieuform" name="denolieuform" type="text">
-                        </div>
-                        <div class="case5-col2-children10">
-                            <label class="" for="numerouai">N° UAI :</label>
-                            <input class="case5-col2-children10-input" id="numerouai" name="numerouai" type="text">
-                        </div>
-                        <div class="case5-col2-children11">
-                            <label class="" for="numerosire">N° SIRET :</label>
-                            <input class="case5-col2-children11-input" id="numerosire" name="numerosire" type="text">
+                        <div class="content-1-child5 input-contener">
+                            <input class="content-1-child5-input" id="commune-lieu" name="commune-lieu" type="text">
+                            <label class="" for="commune-lieu">Commune :</label>
                         </div>
 
-                        <div class="case5-col2-children12 bold" >Adresse du lieu de formation principal :</div>
-                        <div class="case5-col2-children13 flex">
-                            <div>
-                                <label class="" for="adresseformaprinci">N° :</label>
-                                <input class="case5-col2-children13-input1" id="adresseformaprinci" name="adresseformaprinci" type="text">
-                            </div>
-                            <div>
-                                <label class="" for="voieformaprinci">Voie:</label>
-                                <input class="case5-col2-children13-input2" id="voieformaprinci" name="voieformaprinci" type="text">
+                        <div class="content-3">
+                            <div class="content-3-child1 input-contener">
+                                <input checked type="checkbox" class="content-3-child1-input" name="adhesion" id="attestepiecejustificatif">
+                                <label for="attestepiecejustificatif">L’employeur atteste disposer de l’ensemble des pièces justificatives nécessaires au dépôt du contrat</label>
                             </div>
                         </div>
-                        <div class="case5-col2-children14">
-                            <label class="" for="complementformaprinci">Complément :</label>
-                            <input class=" case5-col2-children13-input" id="complementformaprinci" name="complementformaprinci" type="text">
-                        </div>
-                        <div class="case5-col2-children15">
-                            <label class="item10" for="codepostalformaprinci">Code postal :</label>
-                            <input class="case5-col2-children15-input" id="codepostalformaprinci" name="codepostalformaprinci" type="number">
-                        </div>
-                        <div class="case5-col2-children16">
-                            <label class="item12" for="communeformaprinci">Commune :</label>
-                            <input class="case5-col2-children16-input" id="communeformaprinci" name="communeformaprinci" type="text">
-                        </div>
-                    </div>
-                    <div class="case5-ligne1">
-                        <div class="case5-col1-children10 flex">
-                            <input type="checkbox" class="case5-ligne1-input" name="attestepiecejustificatif" id="attestepiecejustificatif">
-                            <label for="attestepiecejustificatif">L’employeur atteste disposer de l’ensemble des pièces justificatives nécessaires au dépôt du contrat</label>
-                        </div>
-                    </div>
-                    <div class="case5-ligne2">
-                        <div class="case5-col1-children9">
-                            <label class="" for="faita">Fait à :</label>
-                            <input class="case5-ligne2-input" id="faita" name="faita" type="text">
-                        </div>
-                    </div>
-                    <div class="case5-ligne3 bold">Signature du représentant légal de l’apprenti(e) mineur(e)</div>
-                    <div class="case5-ligne4 flex">
-                        <div class="bold">Signature de l’employeur</div>
-                        <div class="bold">Signature de l’apprenti(e)</div>
-                    </div>
-                </div>-->
 
-                <!--------------------CASE 6-------------------->
-<!--                <div class="organisme-case6 bold">CADRE RÉSERVÉ À L’ORGANISME EN CHARGE DU DÉPÔT DU CONTRAT</div>-->
-                <!--<div class="case6">
-                    <div class="case6-col1">
-                        <div class="case6-col1-child1">
-                            <label class="bold" for="nomorganisme">Nom de l’organisme :</label>
+                            <div class="input-contener">
+                                <input class="case5-ligne2-input" id="faita" name="faita" type="text">
+                                <label class="" for="faita">Fait à :</label>
+                            </div>
+                        <div class="case5-ligne3 bold">Signature du représentant légal de l’apprenti(e) mineur(e)</div>
+                        <div class="case5-ligne4 flex">
+                            <div class="bold">Signature de l’employeur</div>
+                            <div class="bold">Signature de l’apprenti(e)</div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="cadre-reserve">
+                    <legend>CADRE RÉSERVÉ À L’ORGANISME EN CHARGE DU DÉPÔT DU CONTRAT</legend>
+                    <div class="content-16">
+                        <div class="input-contener">
                             <input class=" case6-col1-child1-input" id="nomorganisme" name="nomorganisme" type="text">
+                            <label class="bold" for="nomorganisme">Nom de l’organisme :</label>
                         </div>
                         <div class="case6-col1-child2">
                             <label class="" for="daterecepdoscomplet">Date de réception du dossier complet :</label>
                             <input class=" case6-col1-child2-input" id="daterecepdoscomplet" name="daterecepdoscomplet" type="date">
                         </div>
-                        <div class="case6-col1-child3">
-                            <label class="" for="numerodepot">N° de dépôt :</label>
+                        <div class="input-contener">
                             <input class=" case6-col1-child3-input" id="numerodepot" name="numerodepot" type="text">
+                            <label class="" for="numerodepot">N° de dépôt :</label>
                         </div>
                     </div>
-                    <div class="case6-col2">
-                        <div class="case6-col2-child1">
-                            <label class="bold" for="numerosiretorganisme">N° SIRET de l’organisme :</label>
+                    <div class="content-16">
+                        <div class="input-contener">
                             <input class=" case6-col2-child1-input" id="numerosiretorganisme" name="numerosiretorganisme" type="text">
+                            <label class="bold" for="numerosiretorganisme">N° SIRET de l’organisme :</label>
                         </div>
                         <div class="case6-col2-child2">
                             <label class="" for="datedecision">Date de la décision :</label>
                             <input class=" case6-col2-child2-input" id="datedecision" name="datedecision" type="date">
                         </div>
-                        <div class="case6-col2-child3">
-                            <label class="" for="numeroavenant">Numéro d’avenant :</label>
+                        <div class="input-contener">
                             <input class=" case6-col2-child3-input" id="numeroavenant" name="numeroavenant" type="text">
+                            <label class="" for="numeroavenant">Numéro d’avenant :</label>
                         </div>
                     </div>
-                </div>-->
+                </fieldset>
+
             </form>
-           <!-- <p class="bold indication">Pour remplir le contrat et pour plus d’informations sur le traitement des données reportez-vous à la notice FA 14</p>
-            <hr>-->
+          <p class="indication">Pour remplir le contrat et pour plus d’informations sur le traitement des données reportez-vous à la notice FA 14</p>
+
     </div>
 </body>
 </html>

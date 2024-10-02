@@ -217,9 +217,9 @@
     /*top: 33px; Large Screen*/
 }
 
-#contrat-apparentissage{
+#contrat-apparentissage, #apprenti,#maitre-apprentissage, #contat,#laformation, #cadre-reserve,.indication{
     margin: 0 auto;
-    max-width: 450px;
+    max-width: 400px;
 }
 
 /*Checkbox*/
@@ -292,6 +292,11 @@ input[type="radio"]{
     width: 1.1rem;
     height: 1.1rem;
 }
+.verySmallSize{
+    font-size: 0.7rem;
+}
+/*Apprenti*/
+#apprenti .content-7-child2{
 
-
+}
 /*************  FORM *************/
