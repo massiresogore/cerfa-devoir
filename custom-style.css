@@ -447,9 +447,17 @@ input[type="radio"]{
     .widtlong{
         width: 16rem;
     }
+    .remuneration-titre{
+        margin: 0;
+    }
 
-
-
+    #annee1de, #annee1au,#annee1au2,#annee1du,#annee1etdu,#annee1etduau2,#annee1etduau22{
+        border-right-width: 1px;
+    } #annee2de, #annee2au,#annee2au2,#annee2du,#annee2etdu,#annee2etduau2,#annee2etduau22{
+        border-right-width: 1px;
+    } #annee3de, #annee3au,#annee3au2,#annee3du,#annee3etdu,#annee3etduau3,#annee3etduau22{
+        border-right-width: 1px;
+    }
 
 
     /********** Apprenti **********/
