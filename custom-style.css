@@ -93,7 +93,9 @@
     top:0;
     height:10px;
     width:0;
-    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(0, 85, 164), rgb(255, 255, 255), rgb(239, 65, 53));
+    /*background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);*/
     z-index:999;
 }
 .container{
