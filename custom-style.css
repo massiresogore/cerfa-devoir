@@ -173,7 +173,8 @@
     position: relative;
     margin-bottom: var(--form-paddind);
 }
-.input-contener input[type="text"],.input-contener input[type="tel"], .input-contener input[type="email"],.input-contener input[type="tel"]{
+.input-contener input[type="text"],.input-contener input[type="tel"], .input-contener input[type="email"],
+.input-contener input[type="tel"],.input-contener input[type="date"]{
     --webkit-appearance: none;
     appearance: none;
     border: 6px solid #9fa6b3;
@@ -189,14 +190,16 @@
     /*padding: 15px 16px;; Large Screen*/
 }
 
-.input-contener input[type="text"]:focus, .input-contener input[type="email"]:focus, .input-contener input[type="tel"]:focus{
+.input-contener input[type="text"]:focus, .input-contener input[type="email"]:focus,
+.input-contener input[type="tel"]:focus,.input-contener input[type="date"]:focus{
     padding-bottom: 5px;
     /*padding: 2px; Large Screen*/
     padding-top: 20px;
     /*padding-top: 30px; Large Screen*/
     border-color: #2d9ae3;
 }
-.input-contener input[type="text"] + label, .input-contener input[type="email"] + label,.input-contener input[type="tel"] + label {
+.input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
+.input-contener input[type="tel"] + label,.input-contener input[type="date"] + label {
     position: absolute;
     top: 0;
     left: 0;
@@ -210,7 +213,7 @@
 
 
 .input-contener input[type="text"]:focus + label, .input-contener input[type="email"]:focus + label,
-.input-contener input[type="tel"]:focus  + label
+.input-contener input[type="tel"]:focus  + label, .input-contener input[type="date"]:focus + label
 {
     background-color: #2d9ae3;
     top: 20px;
