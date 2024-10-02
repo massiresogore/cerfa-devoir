@@ -290,7 +290,9 @@ input[type="checkbox"]:checked{
     display: flex;
     align-items: center;
 }
-
+.content-7-child8 {
+    margin-block-end: var(--form-paddind);
+}
 input[type="radio"]{
     position: relative;
     --webkit-appearance: none;
@@ -323,17 +325,21 @@ input[type="radio"]{
     ******* Ajustement de ces inputs (text trop long) *******
     Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :
     Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span>
+    Date de fin du contrat ou de la période d’apprentissage :
+    Date de début de formation pratique <span> chez l’employeur :
 */
-#dateconclusion, #numcontratprec{
+#dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
     padding-top: 20px;
 }
-#dateconclusion:focus, #numcontratprec:focus {
+#dateconclusion:focus, #numcontratprec:focus,#datedebuform:focus, #datefincontratp:focus{
     padding-top: 43px;
 }
 
 .content-1-child2-el1, .content-1-child2-el1, .maitre-apprentissage2{
     background-color: #9fa6b3;
 }
+
+
 
 /*legend*/
 #contrat-apparentissage legend,
@@ -381,9 +387,6 @@ input[type="radio"]{
         max-width: 780px;
     }
 
-   /* #form{
-        display: grid;
-    }*/
     /*********** Contrat Apprentsissage **********/
     #contrat-apparentissage{
         display: grid;
@@ -412,6 +415,39 @@ input[type="radio"]{
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
+    #contat{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .contrat-block-3{
+        /*grid-column: 1 / 3;*/
+        align-self: center;
+    }
+    .contrat-block-4{
+        grid-column: 1 / 3;
+
+    }
+    .contrat-block-5{
+        grid-column: 1 / 3;
+
+    }
+    .annee1{
+        display: flex;
+    }.annee2{
+        display: flex;
+    }.annee3{
+        display: flex;
+    }
+    #annee1de:focus,#annee2de:focus,#annee3de.focus{
+        padding-bottom: 20px;
+    }
+    /*Appliqué sur le container de input 1er annee1 pour elargir*/
+    .widtlong{
+        width: 16rem;
+    }
+
 
 
 
