@@ -196,7 +196,8 @@
 .input-contener input[type="tel"],.input-contener input[type="date"],.input-contener input[type="time"]{
     --webkit-appearance: none;
     appearance: none;
-    border: 6px solid #9fa6b3;
+    border: 6px solid #2d9ae3;
+    /*border: 6px solid #9fa6b3;*/
     background: #FFFFFF;
     color: #222222;
     outline: none;
@@ -215,14 +216,16 @@
     /*padding: 2px; Large Screen*/
     padding-top: 20px;
     /*padding-top: 30px; Large Screen*/
-    border-color: #2d9ae3;
+    border-color: #9fa6b3;
 }
 .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
 .input-contener input[type="tel"] + label,.input-contener input[type="date"] + label,.input-contener input[type="time"] +label {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #9fa6b3;
+    /*background-color: #9fa6b3;*/
+    background-color: #2d9ae3;
+
     padding: 1px 5px;
     /*padding: 5px 20px; Large Screen*/
     transition-property: top, background;
@@ -235,7 +238,8 @@
 .input-contener input[type="tel"]:focus  + label, .input-contener input[type="date"]:focus + label,
 .input-contener input[type="time"]:focus + label
 {
-    background-color: #2d9ae3;
+    background-color: #9fa6b3;
+    /*background-color: #2d9ae3;*/
     top: 20px;
     /*top: 33px; Large Screen*/
 }
@@ -356,7 +360,8 @@ input[type="radio"]{
 */
 
 .content-1-child2-el1, .content-1-child2-el1, .maitre-apprentissage2{
-    background-color: #9fa6b3;
+    background-color: #2d9ae3;
+    color: white;
 }
 
 
@@ -414,6 +419,9 @@ label{
 
 @media (min-width: 747px) {
 
+.titre{
+    font-size: 1.4rem;
+}
     #contrat-apparentissage, #apprenti,#maitre-apprentissage,
     #contat,#laformation, #cadre-reserve,.indication, .titre{
         margin: 0 auto;
