@@ -1,5 +1,4 @@
 
-/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @layer base {
     :root{
@@ -68,28 +67,6 @@
         font-size: var(--h6);
     }
 
-/*METHODE 1
-    #progress{
-        position: sticky;
-        top: 0;
-        width: 100%;
-        height: 10px;
-        background-color: blue;
-        animation: progress linear forwards;
-        animation-timeline: scroll();
-    }
-
-}
-
-@keyframes progress {
-    from {
-        width: 0;
-    }
-    to{
-        width: 100%;
-    }
-    */
-
 }
 .contrat-text{
     margin-block-end: 1rem;
@@ -102,7 +79,6 @@
     width:0;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(0, 85, 164), rgb(255, 255, 255), rgb(239, 65, 53));
-    /*background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);*/
     z-index:999;
     opacity: 0.5;
 }
@@ -123,9 +99,6 @@
 
 }
 
-.header .text-1{
-    /*width: 35%;*/
-}
 
 .header .contrat span{
     font-weight: bold;
@@ -135,7 +108,6 @@
 .header .milieu{
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
     gap: 1rem;
 }
 
@@ -144,8 +116,6 @@
 }
 
 .header .text-cerfa{
-   /* display: grid;
-    grid-template-rows: 1fr 1fr;*/
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -188,7 +158,6 @@
 
 .input-contener{
     padding-top: 20px;
-    /*padding-top: 33px; Large Screen*/
     position: relative;
     margin-bottom: var(--form-paddind);
 }
@@ -197,25 +166,20 @@
     --webkit-appearance: none;
     appearance: none;
     border: 6px solid #2d9ae3;
-    /*border: 6px solid #9fa6b3;*/
     background: #FFFFFF;
     color: #222222;
     outline: none;
     padding: 4px 5px;
-    /*padding: 15px 16px;; Large Screen*/
     transition-property: border, padding;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
     width: 100%;
-    /*padding: 15px 16px;; Large Screen*/
 }
 
 .input-contener input[type="text"]:focus, .input-contener input[type="email"]:focus,
 .input-contener input[type="tel"]:focus,.input-contener input[type="date"]:focus,.input-contener input[type="time"]:focus{
     padding-bottom: 5px;
-    /*padding: 2px; Large Screen*/
     padding-top: 20px;
-    /*padding-top: 30px; Large Screen*/
     border-color: #9fa6b3;
 }
 .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
@@ -223,11 +187,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    /*background-color: #9fa6b3;*/
     background-color: #2d9ae3;
 
     padding: 1px 5px;
-    /*padding: 5px 20px; Large Screen*/
     transition-property: top, background;
     transition-duration: 500ms;
     transition-timing-function: ease;
@@ -239,9 +201,7 @@
 .input-contener input[type="time"]:focus + label
 {
     background-color: #9fa6b3;
-    /*background-color: #2d9ae3;*/
     top: 20px;
-    /*top: 33px; Large Screen*/
 }
 
 #contrat-apparentissage, #apprenti,#maitre-apprentissage,
@@ -343,21 +303,6 @@ input[type="radio"]{
 }
 
 
-/*
-    ******* Ajustement de ces inputs (text trop long) *******
-    Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :
-    Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span>
-    Date de fin du contrat ou de la période d’apprentissage :
-    Date de début de formation pratique <span> chez l’employeur :
-*/
-/*
-#dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
-    padding-top: 20px;
-}
-#dateconclusion:focus, #numcontratprec:focus,#datedebuform:focus, #datefincontratp:focus{
-    padding-top: 43px;
-}
-*/
 
 .content-1-child2-el1, .content-1-child2-el1, .maitre-apprentissage2{
     background-color: #2d9ae3;
@@ -394,7 +339,6 @@ input[type="radio"]{
 
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
-    /*background: linear-gradient(to right, rgba(0, 85, 164,.1), rgba(255, 255, 255,.1), rgba(239, 65, 53,.1));*/
 }
 #form > fieldset:not(:last-child){
     margin-block-end: 1rem;
@@ -588,56 +532,15 @@ label{
         grid-template-rows: repeat(2, auto);
         gap: 1rem;
     }
-   body{
-        /*font-size: var(--h3) ;*/
-    }
-   /* #form{
-        font-size: var(--h5);
-    }*/
+
    #form input:not(input[type="radio"], input[type="checkbox"],#form input[type="date"]){
         height: 50px;
     }
 
-        /* .input-contener  input[type="text"]:focus,
-         .input-contener input[type="email"]:focus,
-         .input-contener input[type="tel"]:focus,
-         .input-contener input[type="date"]:focus{
-             padding-top: 2.7rem;
-             padding-bottom: 1rem;
-         }*/
 
-
-        /*  .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
-          .input-contener input[type="tel"] + label,.input-contener input[type="date"] + label,.input-contener input[type="time"] +label {
-              top: -0.4rem;
-          }
-      */
     .indication {
         font-size: var(--h4);
     }
-
-    /*
-    ******* Ajustement de ces inputs (text trop long) *******
-    Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :
-    Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span>
-    Date de fin du contrat ou de la période d’apprentissage :
-    Date de début de formation pratique <span> chez l’employeur :
-*/
-    /*
-    #dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
-        padding-top: 40px;
-    }
-    #dateconclusion:focus, #numcontratprec:focus,#datedebuform:focus, #datefincontratp:focus{
-        padding-top: 77px;
-    }
-
-    #siret,#intituledernierdiplome  {
-        padding-top: 3.2rem;
-        padding-bottom: 1.5rem;
-    }
-
-
-    */
 
     .header{
         font-size: medium;
@@ -662,10 +565,6 @@ label{
         gap: 1rem;
         margin-left: 1.7rem;
     }
-  /*  #departnaissance+label{
-        margin-block-start: 1rem;
-    }*/
-
 
     #form #denolieuform:focus{
         padding-top: 5rem;
