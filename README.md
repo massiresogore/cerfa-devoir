@@ -22,4 +22,4 @@ Le TP est à rendre en ligne dans le cours "Intégration" pour le dimanche 6 oct
 
 ## Prof: **Sébastien Linck**
 
-SCREE : 400, 600, 800, 1000
+SCREEN : 436, 747, 1000

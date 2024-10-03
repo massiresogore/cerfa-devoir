@@ -320,7 +320,7 @@
 
 
 input[type="text"], input[type="tel"],input[type="number"]{
-   background-image: url("images/carre.svg");
+   background-image: url("../images/carre.svg");
     background-position: center center;
     background-repeat:repeat-x;
     border: none;
