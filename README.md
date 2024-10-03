@@ -1,4 +1,4 @@
-## clone le dossier => https://github.com/massiresogore/cerfa-devoir.git
+## clone le dossier git => https://github.com/massiresogore/cerfa-devoir.git
 #  Devoir de classe SOGORE MASSIRE
 ## École d'Ingénieurs en Sciences Industrielles et Numérique) EISINE (2024/2025)
 
