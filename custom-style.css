@@ -414,8 +414,10 @@ label{
 .titre{
     font-weight: 900;
     color: rgba(0,0,0,.7);
-
+    text-align: center;
 }
+
+
 
 @media (min-width: 747px) {
 
@@ -505,6 +507,7 @@ label{
         border-bottom-color: #9fa6b3;
         border-bottom-style: groove;
         margin-block-start: 1rem;
+
     }
     .contrat-block-1 > div:nth-child(2) > label:nth-child(2), .contrat-block-1 > div:nth-child(2) > label:nth-child(2),
     .contrat-block-1 > div:nth-child(3) > label:nth-child(2),
@@ -675,6 +678,10 @@ label{
         font-size: .6rem;
     }
 
+    .indication{
+        margin-block-end: 1rem;
+        padding: 1rem;
+    }
 }
 /*************  FORM *************/
 
