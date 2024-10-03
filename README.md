@@ -1,5 +1,5 @@
-#  Devoir de classe
-## École d'Ingénieurs en Sciences Industrielles et Numérique) EISINE
+#  Devoir de classe SOGORE MASSIRE
+## École d'Ingénieurs en Sciences Industrielles et Numérique) EISINE (2024/2025)
 
 
 >[Objectifs]
@@ -21,5 +21,16 @@ Le TP est à rendre en ligne dans le cours "Intégration" pour le dimanche 6 oct
 
 
 ## Prof: **Sébastien Linck**
-
-SCREEN : 436, 747, 1000
+## REALISATION:
+le projet à été réalisé en deux temps
+-  prémièrement, j'ai reproduit le fichier pdf en utilisant html et css, l'Html fichier se trouve dans index.html et son style
+   se trouve dans le dossier css sous le nom de style.css,
+-  Deuxièmement, j'ai fait une version améliorée dont le code HTML est enregistrée dans un dossier appelé custom ous le nom custom.html
+   et son style se trouve dans le dossier css au nom de custom.style.css
+## TECHNIQUE:
+un bouton animé , saffiche dans la page index.html, en cliquant dessus vous renvoie vers la deuxième page qui est la version amélioré.
+La version améliorée est responsive dont les points de break sont définit telque:
+-  mobile => 436px
+-  tablette => 747px
+-  Destop => 1000px
+   
