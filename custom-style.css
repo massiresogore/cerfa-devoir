@@ -472,6 +472,10 @@ input[type="radio"]{
 }
 
 @media(min-width: 1000px) {
+
+    :root{
+        --form-paddind: 20px;
+    }
     #contrat-apparentissage, #apprenti,#maitre-apprentissage,
     #contat,#laformation, #cadre-reserve,.indication, .titre{
         margin: 0 auto;
@@ -524,15 +528,60 @@ input[type="radio"]{
         position: relative;
         right: 1rem;
     }
-   /* body{
-        !*background-color: indianred;*!
+
+    #laformation{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;
+    }
+   body{
         font-size: var(--h1) ;
     }
     #form{
+        font-size: var(--h5);
+    }
+    #form input:not(input[type="radio"], input[type="checkbox"]){
+        height: 60px;
+    }
+
+
+
+    .input-contener  input[type="text"]:focus,
+    .input-contener input[type="email"]:focus,
+    .input-contener input[type="tel"]:focus,
+    .input-contener input[type="date"]:focus{
+        padding-top: 2.7rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
+    .input-contener input[type="tel"] + label,.input-contener input[type="date"] + label,.input-contener input[type="time"] +label {
+        top: -0.4rem;
+    }
+
+    .indication{
         font-size: var(--h4);
     }
-    #form input{
-        height: 60px;
-    }*/
+
+    /*
+    ******* Ajustement de ces inputs (text trop long) *******
+    Numéro du contrat précédent ou du contrat sur lequel porte l’avenant :
+    Date de conclusion : <span class="date-sign">(Date de signatures du présent contrat)</span>
+    Date de fin du contrat ou de la période d’apprentissage :
+    Date de début de formation pratique <span> chez l’employeur :
+*/
+    #dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
+        padding-top: 40px;
+    }
+    #dateconclusion:focus, #numcontratprec:focus,#datedebuform:focus, #datefincontratp:focus{
+        padding-top: 77px;
+    }
+
+    #siret,#intituledernierdiplome  {
+        padding-top: 3.2rem;
+        padding-bottom: 1.5rem;
+    }
 }
 /*************  FORM *************/
