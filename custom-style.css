@@ -116,9 +116,11 @@
     justify-content: space-around;
     max-width: 82rem;
     margin: 0 auto;
+    min-width: 400px;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+
 }
 
 .header .text-1{
@@ -179,8 +181,11 @@
 #form{
     font-family: "Poppins",sans-serif;
     font-size: calc(var(--h6) - var(--scale-font-size));
-  transition: all 1s ease;
+    transition: all 1s ease;
+    margin-block-start: 2rem;
+
 }
+
 .input-contener{
     padding-top: 20px;
     /*padding-top: 33px; Large Screen*/
@@ -341,12 +346,14 @@ input[type="radio"]{
     Date de fin du contrat ou de la période d’apprentissage :
     Date de début de formation pratique <span> chez l’employeur :
 */
+/*
 #dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
     padding-top: 20px;
 }
 #dateconclusion:focus, #numcontratprec:focus,#datedebuform:focus, #datefincontratp:focus{
     padding-top: 43px;
 }
+*/
 
 .content-1-child2-el1, .content-1-child2-el1, .maitre-apprentissage2{
     background-color: #9fa6b3;
@@ -388,12 +395,25 @@ input[type="radio"]{
     margin-block-end: 1rem;
 }
 
-.titre{
-    font-weight: 900;
+fieldset{
     color: rgba(0,0,0,.7);
 }
 
+
+.legend-style {
+    font-weight: 900 !important;
+}
+label{
+    color: white;
+}
+.titre{
+    font-weight: 900;
+    color: rgba(0,0,0,.7);
+
+}
+
 @media (min-width: 747px) {
+
     #contrat-apparentissage, #apprenti,#maitre-apprentissage,
     #contat,#laformation, #cadre-reserve,.indication, .titre{
         margin: 0 auto;
@@ -478,11 +498,23 @@ input[type="radio"]{
         border-bottom-style: groove;
         margin-block-start: 1rem;
     }
-
+    .contrat-block-1 > div:nth-child(2) > label:nth-child(2), .contrat-block-1 > div:nth-child(2) > label:nth-child(2),
+    .contrat-block-1 > div:nth-child(3) > label:nth-child(2),
+    .content-13 > div:nth-child(1) > label:nth-child(2),
+    .contrat-block-2 > div:nth-child(1) > label:nth-child(2)
+    {
+        font-size: .5rem;
+    }
 }
 
 @media(min-width: 1000px) {
 
+    .titre{
+        text-transform: uppercase;
+        font-size: 2rem;
+        transition: font-size 0.5s ease;
+        padding: 5rem 0 2rem;
+    }
     :root{
         --form-paddind: 20px;
     }
@@ -548,30 +580,28 @@ input[type="radio"]{
    body{
         /*font-size: var(--h3) ;*/
     }
-    #form{
+   /* #form{
         font-size: var(--h5);
-    }
-    #form input:not(input[type="radio"], input[type="checkbox"],input[type="date"]){
+    }*/
+   #form input:not(input[type="radio"], input[type="checkbox"],#form input[type="date"]){
         height: 50px;
     }
 
+        /* .input-contener  input[type="text"]:focus,
+         .input-contener input[type="email"]:focus,
+         .input-contener input[type="tel"]:focus,
+         .input-contener input[type="date"]:focus{
+             padding-top: 2.7rem;
+             padding-bottom: 1rem;
+         }*/
 
 
-    .input-contener  input[type="text"]:focus,
-    .input-contener input[type="email"]:focus,
-    .input-contener input[type="tel"]:focus,
-    .input-contener input[type="date"]:focus{
-        padding-top: 2.7rem;
-        padding-bottom: 1rem;
-    }
-
-
-    .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
-    .input-contener input[type="tel"] + label,.input-contener input[type="date"] + label,.input-contener input[type="time"] +label {
-        top: -0.4rem;
-    }
-
-    .indication{
+        /*  .input-contener input[type="text"] + label, .input-contener input[type="email"] + label,
+          .input-contener input[type="tel"] + label,.input-contener input[type="date"] + label,.input-contener input[type="time"] +label {
+              top: -0.4rem;
+          }
+      */
+    .indication {
         font-size: var(--h4);
     }
 
@@ -582,6 +612,7 @@ input[type="radio"]{
     Date de fin du contrat ou de la période d’apprentissage :
     Date de début de formation pratique <span> chez l’employeur :
 */
+    /*
     #dateconclusion, #numcontratprec,#datedebuform, #datefincontratp{
         padding-top: 40px;
     }
@@ -595,6 +626,7 @@ input[type="radio"]{
     }
 
 
+    */
 
     .header{
         font-size: medium;
@@ -606,7 +638,6 @@ input[type="radio"]{
     #apprenti > div.apprenti-block-4 > div.content-7-child2.flex{
 
         gap: 1rem;
-        /*align-items: flex-start;*/
     }
     #apprenti > div.apprenti-block-7 > div:nth-child(1),
     #apprenti > div.apprenti-block-7 > div:nth-child(2),
@@ -631,5 +662,11 @@ input[type="radio"]{
     header .text-cerfa {
         align-self: baseline;
     }
+
+    .contrat-block-1 > div:nth-child(2) > label:nth-child(2), .contrat-block-1 > div:nth-child(2) > label:nth-child(2){
+        font-size: .6rem;
+    }
+
 }
 /*************  FORM *************/
+
