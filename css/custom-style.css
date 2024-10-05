@@ -376,9 +376,45 @@ label{
     text-align: center;
 }
 
+/**********/
+.case4-child3-input4{
+    height: 3.6rem;
+}
+.case4-child3-input6{
+    height: 3.6rem;
 
+}
+.case4-child5-input9{
+    height: 3.6rem;
+}
+.case4-child2-input3{
+    height: 3.6rem;
+}
+#lieeuforprincipal+label,#attestepiecejustificatif+label,#adhesion+label, #employeur_prive+label,
+#employeur_public+label,#masculin+label,#feminin+label, #ouihandicap+label,#nonhandicap+label,#aentreprise+label,
+#apasentreprise+label,#oui+label, #non+label,#attest+label,#autre+label, #ouien+label, #nonen+label,#ouidan+label,
+#nondan+label{
+    color: initial ;
+}
+#numcontratprec:focus, #datedebuform:focus, #datefincontratp:focus
+{
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+/*Visa du CFA*/
+.case5-col1-children11, #laformation  div.case5-ligne3.bold, #laformation div.case5-ligne4.flex > div:nth-child(2),
+#laformation  div.case5-ligne4.flex > div:nth-child(1)
+{
+    padding-block-end: 4rem;
+}
+#laformation  div.case5-ligne4.flex{
+    gap: 1rem;
+}
+
+/**********/
 
 @media (min-width: 747px) {
+
     .mobile{
         display: none;
     }
