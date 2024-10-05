@@ -28,11 +28,13 @@ le projet à été réalisé en deux temps
 -  prémièrement, j'ai reproduit le fichier pdf en utilisant html et css, l'Html fichier se trouve dans index.html et son style
    se trouve dans le dossier css sous le nom de style.css,
 -  Deuxièmement, j'ai fait une version améliorée dont le code HTML est enregistrée dans un dossier appelé custom ous le nom custom.html
-   et son style se trouve dans le dossier css au nom de custom.style.css
+   et son style se trouve dans le dossier css au nom de custom.style.css,
+- L'application est responsive, disponible sur 
+  - mobile (436px)
+  - tablette (747px)
+  - et ordinateur (1000px)
 ## TECHNIQUE:
-un bouton animé , saffiche dans la page index.html, en cliquant dessus vous renvoie vers la deuxième page qui est la version amélioré.
-La version améliorée est responsive dont les points de break sont définit telque:
--  mobile => 436px
--  tablette => 747px
--  Destop => 1000px
+un bouton animé , saffiche dans la page index.html, en cliquant dessus,il vous renvera vers la deuxième page
+qui entre autre est la version améliorée.
+ 
 
