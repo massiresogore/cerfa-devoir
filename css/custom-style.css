@@ -413,9 +413,20 @@ label{
 }
 
 /**********/
-
+.  .enregistrer{
+    width: 33%;
+    text-align: center;
+}{
+width: 50%;
+}
 @media (min-width: 747px) {
 
+
+    .enregistrer{
+        width: 30%;
+        text-align: center;
+        padding: 8px 2px;
+    }
     .mobile{
         display: none;
     }
@@ -528,6 +539,10 @@ label{
 }
 
 @media(min-width: 1000px) {
+    .enregistrer{
+        text-align: center;
+        width: 20%;
+    }
     .mobile{
         display: none;
     }
@@ -656,5 +671,7 @@ label{
         padding: 1rem;
     }
 }
+
+
 /*************  FORM *************/
 
