@@ -283,6 +283,7 @@ input[type="checkbox"]:checked{
 }
 .flex{
     display: flex;
+    gap: 1rem;
     align-items: center;
 }
 .content-7-child8 {
