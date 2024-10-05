@@ -35,4 +35,4 @@ La version améliorée est responsive dont les points de break sont définit tel
 -  mobile => 436px
 -  tablette => 747px
 -  Destop => 1000px
-   
+
