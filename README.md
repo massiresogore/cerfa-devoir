@@ -25,16 +25,18 @@ Le TP est à rendre en ligne dans le cours "Intégration" pour le dimanche 6 oct
 ## Prof: **Sébastien Linck**
 ## REALISATION:
 le projet à été réalisé en deux temps
--  prémièrement, j'ai reproduit le fichier pdf en utilisant html et css, l'Html fichier se trouve dans index.html et son style
-   se trouve dans le dossier css sous le nom de style.css,
--  Deuxièmement, j'ai fait une version améliorée dont le code HTML est enregistrée dans un dossier appelé custom ous le nom custom.html
-   et son style se trouve dans le dossier css au nom de custom.style.css,
-- L'application est responsive, disponible sur 
-  - mobile (436px)
-  - tablette (747px)
-  - et ordinateur (1000px)
+
+-  premrierement, j'ai crée une version améliorée(Mobile<436px>,Tablette<747px> et desktop<1000px>), 
+   dont le code HTML se trouve dans index.html et
+   le css se trouve dans css/custom.css
+
+-  deuxièmement, j'ai reproduit le fichier pdf en utilisant html et css, le rendu(uniquement pour desktop), l'Html du fichier 
+   se trouve dans le dossier ancien_formulaire et son style se trouve dans le dossier css sous le nom de styles.css,
+
 ## TECHNIQUE:
 un bouton animé , saffiche dans la page index.html, en cliquant dessus,il vous renvera vers la deuxième page
-qui entre autre est la version améliorée.
+qui entre autre n'est que l'ancienne version.
+
+## pour désactivé le boution il suffit de cliqué sur 
  
 
